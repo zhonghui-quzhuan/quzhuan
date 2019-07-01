@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "v-nav": "/components/nav/index",
+    "v-location": "/components/location/index",
+    "v-lottery_list": "/components/lottery-list/index"
+  }
+}

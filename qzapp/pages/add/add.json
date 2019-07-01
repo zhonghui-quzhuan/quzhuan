@@ -1,0 +1,8 @@
+{
+  "backgroundColor": "#f9f9f9",
+  "usingComponents": {
+    "v-nav": "/components/nav/index",
+    "v-add_address": "/components/add-address/index",
+    "v-address_list": "/components/address-list/index"
+  }
+}

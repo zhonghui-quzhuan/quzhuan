@@ -1,0 +1,36 @@
+<!--components/pattern/index.wxml style="top:{{windowHeight + 46}}px"-->
+<view class="container" bindtap="closePattern"></view>
+<view class="pattern">
+
+  <view class="msg">
+    <image class="msg-img" src="../../image/product@minor.png"></image>
+    <view class="selected">
+      <view class="price">￥2200</view>
+      <view class="store">库存22件</view>
+      <view class="style">已选：“6mm金星紫檀108颗原木款”</view>
+    </view>
+  </view>
+
+  <view class="title">颜色分类</view>
+  <view class="select-box">
+    <view class="select on">
+      <image class="select-img" src="../../image/product@minor.png"></image>
+      <view class="select-text">6mm金星紫檀108颗原木款</view>
+    </view>
+    <view class="select">
+      <image src="../../image/product@minor.png"></image>
+      <view>6mm金星紫檀</view>
+    </view>
+    <view class="select">
+      <image src="../../image/product@minor.png"></image>
+      <view>6mm金</view>
+    </view>
+  </view>
+
+  <view class="buy">
+    <text>购买数量</text>
+    <v-number buyNumber="{{buyNumber}}" bind:saveNumber="saveNumber"></v-number>
+  </view>
+
+  <view class="btn" bindtap="confirm">确定</view>
+</view>

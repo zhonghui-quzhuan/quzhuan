@@ -1,0 +1,8 @@
+/**index.wxss**/
+.v-hotspot{
+  margin: 40rpx 0 42rpx;
+}
+
+.v-poster{
+  border-top: 16rpx solid #f4f4f4;
+}

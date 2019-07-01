@@ -1,0 +1,62 @@
+/* components/tips/index.wxss */
+
+.container {
+  top: 0;
+  left: 0;
+  z-index: 9;
+  width: 750rpx;
+  height: 100vh;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.tips {
+  display: flex;
+  width: 520rpx;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 10rpx;
+  flex-direction: column;
+}
+
+.title {
+  width: 520rpx;
+  height: 88rpx;
+  color: #fff;
+  font-size: 28rpx;
+  line-height: 88rpx;
+  text-align: center;
+  background: #ffd05c;
+}
+
+.scroll {
+  width: 480rpx;
+  height: 296rpx;
+  padding: 20rpx 20rpx 0;
+}
+
+.tip {
+  display: flex;
+  color: #333;
+  font-size: 26rpx;
+  align-items: center;
+  flex-direction: row;
+}
+
+.tip-text {
+  color: #666;
+  font-size: 22rpx;
+}
+
+.btn {
+  width: 520rpx;
+  height: 94rpx;
+  color: #333;
+  font-size: 38rpx;
+  text-align: center;
+  line-height: 94rpx;
+  border-top: 2rpx solid #e3e3e3;
+}

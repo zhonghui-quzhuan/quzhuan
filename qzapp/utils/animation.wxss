@@ -1,0 +1,16 @@
+/** 动画效果 **/
+/**
+ * VIP会员购
+ * 收缩效果
+ */
+@keyframes animation_touch-on {
+  0% {
+    opacity: 1;
+    height: 392rpx;
+  }
+
+  100% {
+    opacity: 0;
+    height: 0;
+  }
+}

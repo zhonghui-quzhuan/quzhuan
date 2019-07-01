@@ -1,0 +1,4 @@
+<!--pages/headlines/headlines.wxml-->
+<v-nav title="今日热点" url="../index/index"></v-nav>
+
+<v-news newsId="{{newsId}}"></v-news>

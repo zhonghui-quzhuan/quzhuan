@@ -1,0 +1,6 @@
+<!--pages/notice/notice.wxml-->
+<v-nav title="公告" backStatus="{{backStatus}}" url="../index/index" bind:back="switchNotice"></v-nav>
+ 
+<v-notice bind:switchNotice="switchNotice" wx:if="{{!noticeWindow}}"></v-notice>
+
+<v-show_text noticeId="{{noticeId}}" wx:else></v-show_text>

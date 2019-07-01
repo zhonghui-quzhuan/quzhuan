@@ -1,0 +1,13 @@
+<!--components/poster/index.wxml-->
+<view class="container">
+  <view class="title">
+    <image class="icon" src="../../image/decorate.png"></image>
+    <text class="text">点点赚</text>
+    <image class="icon" src="../../image/decorate.png"></image>
+  </view>
+  <block wx:for="{{poster}}" wx:key="item">
+    <navigator class="product" hover-class='none' url="../earn/earn">
+      <image class="product-img" src="{{item.image}}"></image>
+    </navigator>
+  </block>
+</view>

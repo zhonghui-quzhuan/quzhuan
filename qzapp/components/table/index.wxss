@@ -1,0 +1,69 @@
+/* components/table/index.wxss */
+.container{
+  width: 660rpx;
+  height: 134rpx;
+  display: flex;
+  padding: 0 45rpx;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tab{
+  width: 96rpx;
+  height: 134rpx;
+  font-size: 24rpx;
+  color: #333333;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.tab-img{
+  width: 96rpx;
+  height: 96rpx;
+}
+
+.news{
+  width: 710rpx;
+  height: 102rpx;
+  display: flex;
+  padding: 0 20rpx;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;  
+}
+
+.news-text{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.horn{
+  width: 38rpx;
+  height: 30rpx;
+  margin-right: 16rpx;
+}
+
+.swiper-box{
+  width: 620rpx;
+  height: 38rpx;
+  font-size: 24rpx;
+  color: #333333;
+  line-height: 40rpx;
+}
+
+.swiper{
+  width: 620rpx;
+  height: 38rpx;
+  font-size: 24rpx;
+  color: #333333;
+  line-height: 40rpx;
+}
+
+.right{
+  width: 24rpx;
+  height: 20rpx;
+}

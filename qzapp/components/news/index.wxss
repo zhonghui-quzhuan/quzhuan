@@ -1,0 +1,27 @@
+/* components/news/index.wxss */
+@import "../../utils/wxParse/wxParse.wxss";
+
+.container{
+  width: 750rpx;
+}
+
+.title{
+  width: 710rpx;
+  color: #333;
+  font-size: 32rpx;
+  margin: 16rpx auto;
+}
+
+.time{
+  color: #999;
+  width: 710rpx;
+  padding: 20rpx;
+  font-size: 22rpx;
+  text-align: right;
+  border-bottom: 1px solid #f4f4f4;
+}
+
+.text{
+  width: 710rpx;
+  margin: 0 auto;
+}

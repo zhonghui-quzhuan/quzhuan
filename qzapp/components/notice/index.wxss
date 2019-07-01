@@ -1,0 +1,36 @@
+/* components/notice/index.wxss */
+
+.container {
+  display: flex;
+  width: 670rpx;
+  padding: 20rpx;
+  background: #fff;
+  border-radius: 10rpx;
+  margin: 20rpx auto 0;
+  flex-direction: column;
+}
+
+.title {
+  display: flex;
+  line-height: 48rpx;
+  justify-content: space-between;
+}
+
+.title-text {
+  color: #333;
+  width: 594rpx;
+  font-size: 28rpx;
+}
+
+.title-img {
+  width: 20rpx;
+  height: 24rpx;
+  margin-top: 12rpx;
+}
+
+.times {
+  color: #999;
+  font-size: 22rpx;
+  margin-top: 30rpx;
+  line-height: 22rpx;
+}

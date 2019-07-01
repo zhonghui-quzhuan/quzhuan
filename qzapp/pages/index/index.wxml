@@ -1,0 +1,5 @@
+<!--index.wxml-->
+<v-navbar title="{{title}}" locationWindow="{{locationWindow}}" locationName="{{locationName}}" bindswitchLocation="switchLocation"></v-navbar>
+<v-hotspot class="v-hotspot" image="{{hotspot.image}}" title="{{hotspot.title}}" intro="{{hotspot.intro}}"></v-hotspot>
+<v-table></v-table>
+<v-poster class="v-poster" poster="{{poster}}"></v-poster>

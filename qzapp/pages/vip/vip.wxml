@@ -1,0 +1,14 @@
+<!--pages/vip/vip.wxml-->
+<v-nav title="VIP会员购" url="../mine/mine"></v-nav>
+
+<view class="touch" style='height: calc(100vh - {{statusHeight}})' bindtouchstart='touchStart' bindtouchmove='touchMove'>
+
+  <view class="touch-relative {{scrollY?'touch-on':''}}">
+    <image class="vip" src="../../image/vip.png"></image>
+  </view>
+
+  <view class="card {{scrollY?'margin_top':''}}">
+    <v-vip vipCard="{{vipCard}}" scrollY="{{scrollY}}"></v-vip>
+  </view>
+
+</view>

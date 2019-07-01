@@ -1,0 +1,4 @@
+<!--pages/cart/cart.wxml-->
+<v-nav title="购物车"></v-nav>
+
+<v-cart-list></v-cart-list>

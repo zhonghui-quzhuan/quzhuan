@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "v-navbar": "/components/navbar/index",
+    "v-hotspot": "/components/hotspot/index",
+    "v-table": "/components/table/index",
+    "v-poster": "/components/poster/index"
+  }
+}

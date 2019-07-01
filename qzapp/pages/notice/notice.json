@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "v-nav": "/components/nav/index",
+    "v-show_text": "/components/show-text/index",
+    "v-notice": "/components/notice/index"
+  }
+}

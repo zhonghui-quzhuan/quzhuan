@@ -1,0 +1,30 @@
+<!--components/address-list/index.wxml-->
+<view class="container">
+  <view class="box">
+    <view class="user">
+      <text class="user-text">姓名</text>
+      <view class="phone">134123654789</view>
+    </view>
+    <view class="address">
+      广东省 深圳市 罗湖区 桂圆街道 广东省深圳市罗湖区桂圆街道红桂大厦西座17楼
+    </view>
+    <view class="operation-list">
+      <view class="operation" bindtap='setting'>
+        <image class="operation-img" src="../../image/select@dis.png"></image>
+        <text>设置为默认地址</text>
+      </view>
+      <view class="operation" bindtap='saveAddress'>
+        <image class="operation-img" src="./img/save.png"></image>
+        <text>修改</text>
+      </view>
+      <view class="operation" bindtap='deleteAddress'>
+        <image class="operation-img" src="../../image/delete.png"></image>
+        <text>删除</text>
+      </view>
+    </view>
+  </view>
+  <view class="add">
+    新增地址
+  </view>
+  <view class="space"></view>
+</view>

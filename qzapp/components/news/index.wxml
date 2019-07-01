@@ -1,0 +1,11 @@
+<!--components/news/index.wxml-->
+<view class="container">
+  <view class="title">
+    十八大以来首次访问朝鲜在即习近平这样评价中朝 关系
+  </view>
+  <view class="time">2019-02-18</view>
+  <view class="text">
+    <import src="../../utils/wxParse/wxParse.wxml" />
+    <template is="wxParse" data="{{wxParseData:content.nodes}}" />
+  </view>
+</view>

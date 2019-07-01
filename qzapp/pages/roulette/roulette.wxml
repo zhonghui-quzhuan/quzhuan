@@ -1,0 +1,7 @@
+<!--pages/roulette/roulette.wxml-->
+<v-nav title="抽奖福利" backStatus="{{backStatus}}" url="../index/index" bind:back="switchRecord"></v-nav>
+
+<v-roulette statusHeight="{{statusHeight}}" wx:if="{{backStatus}}" bind:switchRecord="switchRecord"></v-roulette>
+ 
+<v-record wx:else></v-record>
+

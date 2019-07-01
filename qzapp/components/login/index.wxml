@@ -1,0 +1,43 @@
+<!--components/login/index.wxml-->
+<v-flash wx:if="{{flashWindow}}"></v-flash> 
+<block wx:else>
+  <view class="container {{!accountWindow?'justify_content_end':'justify_content_center'}}" wx:if="{{loginWindow}}">
+    <block wx:if="{{!accountWindow}}">
+      <image class="logo" src="../../image/logo.png"></image>
+      <button class="btn wechat" open-type="getPhoneNumber" bindgetphonenumber="getPhoneNumber">
+        <image class="btn-img" src="./img/wechat.png"></image>
+        <text>授权登录</text>
+      </button>
+      <button class="btn phone" catchtap="switchAccount">
+        <image class="btn-img" src="./img/phone.png"></image>
+        <text>直接登录</text>
+      </button>
+      <text class="tip">
+    为了维护您的财产安全，我们需要进行账号登录
+    不足之处敬请谅解
+    </text>
+    </block>
+    <block wx:else>
+      <view class="login">
+        <view class="login-input">
+          <text class="login-title">手机号</text>
+          <input class="import" type="number" value="{{code}}" placeholder='输入您的手机号' maxlength='11' bindblur='judgePhone'></input>
+        </view>
+        <view class="login-input">
+          <text class="login-title">密码</text>
+          <input class="import" password="true" value="{{password}}" maxlength='20' placeholder='输入您的密码' bindblur='judgePassword'></input>
+        </view>
+        <view class="login-input">
+          <text class="login-title">验证码</text>
+          <input class="code" type="text" value="{{code}}" maxlength='6' placeholder='获取的验证码'></input>
+          <view class="getcode" wx:if="{{times == 0}}" bindtap='getPhoneCode'>发送验证码</view>
+          <view class="setcode" wx:else>重新发送请求({{times}}s)</view>
+        </view>
+        <button class="login-btn" open-type='getUserInfo' bindgetuserinfo='loginAccount'>登录</button>
+        <view class="back" catchtap="switchAccount">返回</view>
+      </view>
+    </block>
+  </view>
+
+  <v-showmodel modalWindow="{{modalWindow}}" showCancel="{{showCancel}}" content="{{content}}" cancelText="去注册" bind:cancel="cancel" bind:confirm="confirm"></v-showmodel>
+</block>

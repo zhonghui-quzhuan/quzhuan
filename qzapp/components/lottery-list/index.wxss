@@ -1,0 +1,53 @@
+/* components/lottery-list/index.wxss */
+
+.container {
+  display: flex;
+  width: 710rpx;
+  height: 184rpx;
+  margin-top: 20rpx;
+  background: #fff;
+  align-items: center;
+  flex-direction: row;
+  border-radius: 10rpx;
+  box-shadow: 0 0 10rpx 0 rgba(0, 0, 0, 0.06);
+}
+
+.container:hover {
+  background: #fff;
+}
+
+.container-img {
+  width: 144rpx;
+  height: 144rpx;
+  margin-left: 20rpx;
+  border-radius: 10rpx;
+}
+
+.msg {
+  display: flex;
+  width: 500rpx;
+  height: 144rpx;
+  margin-left: 26rpx;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.prize {
+  font-size: 32rpx;
+  color: #1a1a1a;
+  line-height: 32rpx;
+}
+
+.sponsor {
+  color: #999;
+  font-size: 22rpx;
+  margin-top: 20rpx;
+  line-height: 22rpx;
+}
+
+.times {
+  width: 100%;
+  color: #999;
+  font-size: 22rpx;
+  text-align: right;
+}

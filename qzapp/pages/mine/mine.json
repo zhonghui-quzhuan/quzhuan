@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "v-nav": "/components/nav/index",
+    "v-user": "/components/user/index",
+    "v-qrcode": "/components/qrcode/index"
+  }
+}

@@ -1,0 +1,10 @@
+<!--pages/map/map.wxml-->
+<v-nav title="周边商家"></v-nav>
+
+
+<v-maps></v-maps>
+
+<navigator class="periphery" hover-class='none' url="../periphery/periphery">
+  <view>发现周边商家</view>
+  <image src="../../image/right@2.png"></image>
+</navigator>

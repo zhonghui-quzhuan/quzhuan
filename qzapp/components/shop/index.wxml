@@ -1,0 +1,60 @@
+<!--components/shop/index.wxml-->
+<view class="container">
+  <view class="shop">
+    <image class="shop-img" src="../../image/product@minor.png"></image>
+    <view class="msg">
+      <text class="msg-text">幸福西饼（龙华店）</text>
+      <view class="address" bindtap='lookMaps'>
+        <image class="address-img" src="../../image/location.png"></image>
+        <view class="content">深圳市宝安区飒飒你看上了飞机541312号</view>
+      </view>
+    </view>
+  </view>
+  <image class="phone" src="./img/phone.png" bindtap='callPhone'></image>
+</view>
+
+<view class="coupon">
+  <view class="title">
+    优惠券
+    <text class="title-text">* 点击优惠券进行<text class="red">领取</text></text>
+  </view>
+  <scroll-view class="touch-box" scroll-x="true">
+    <view class="box" style="background-image:url({{couponBg}})">
+      <view class="minus">￥203</view>
+      <text class="condition">满8883可用</text>
+    </view>
+    <view class="box" style="background-image:url({{couponBg}})">
+      <view class="minus">￥203</view>
+      <text class="condition">满8883可用</text>
+    </view>
+    <view class="box" style="background-image:url({{couponBg}})">
+      <view class="minus">￥203</view>
+      <text class="condition">满8883可用</text>
+    </view>
+  </scroll-view>
+</view>
+
+<view class="title">
+  门店详情
+  <text class="title-text">* 我就是我　不一样的<text class="red">烟火</text></text>
+</view>
+<image class="show-img" src="../../image/product@minor.png" mode="widthFix"></image>
+
+<view class="get-vip">
+  <view class="btn">领取VIP卡</view>
+</view>
+
+<view class="space"></view>
+
+<view class="bg">
+  <view class="card" style="background-image:url({{vip}})">
+    <view class="card-msg">
+      <view class="success">恭喜您领取成功！</view>
+      <view class="intro">成功领取幸福西饼8折优惠VIP卡</view>
+      <view class="tips">奖励已发放，您可以前往个人中心我的卡包查看</view>
+    </view>
+  </view>
+  <navigator class="receive" hover-class='none' url="../card/card">
+    去卡包查看使用
+  </navigator>
+</view>

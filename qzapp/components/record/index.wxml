@@ -1,0 +1,29 @@
+<!--components/record/index.wxml-->
+<view class="container">
+  <view class="reward">
+    <image class="reward-img" src="../../image/product@minor.png"></image>
+    <view class="msg">
+      <view class="title">
+        <text class="black">奖品：iphone X</text>
+        <view class="intro">中汇天下 赞助</view>
+      </view>
+      <view class="times">
+        <text>2019-06-21 15:42:03</text>
+        <view class="btn gray">已领取</view>
+      </view>
+    </view>
+  </view>
+  <view class="reward">
+    <image class="reward-img" src="../../image/product@minor.png"></image>
+    <view class="msg">
+      <view class="title">
+        <text class="black">奖品：iphone X</text>
+        <view class="intro">中汇天下 赞助</view>
+      </view>
+      <view class="times">
+        <text>2019-06-21 15:42:03</text>
+        <view class="btn gray">已领取</view>
+      </view>
+    </view>
+  </view>
+</view>

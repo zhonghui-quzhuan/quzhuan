@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "v-showmodel": "/components/showmodel/index",
+    "v-flash": "/components/flash/index"
+    
+  }
+}

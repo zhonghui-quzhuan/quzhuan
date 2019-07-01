@@ -1,0 +1,20 @@
+<!--components/navbar/index.wxml-->
+<view class="container" wx:if="{{!locationWindow}}">
+  <view class="navbar" style="padding-top:{{statusHeight}}px">
+    {{title}}
+  </view>
+  <view class="location" style="top:{{statusHeight}}px" bindtap='switchLocation'>
+    <view>{{locationName}}</view>
+    <image class="location-img" src="../../image/bot.png"></image>
+  </view>
+</view>
+<view class="container" wx:else>
+  <view class="navbar" style="padding-top:{{statusHeight}}px">
+    {{title}}
+  </view>
+  <view class="back" style="padding-top:{{statusHeight}}px" bindtap='switchLocation'>
+    <image class="back-img" src="../../image/bot.png"></image>
+  </view>
+</view>
+<view class="space" style="padding-top:{{statusHeight}}px"></view>
+<v-location locationWindow="{{locationWindow}}" statusHeight="{{statusHeight}}"></v-location>

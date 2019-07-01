@@ -1,0 +1,75 @@
+/* components/periphery/index.wxss */
+.container{
+  display: flex;
+  width: 710rpx;
+  height: 260rpx;
+  margin-top: 20rpx;
+  background: #fff;
+  align-items: center;
+  border-radius: 10rpx;
+  flex-direction: column;
+}
+
+.main{
+  display: flex;
+  width: 670rpx;
+  height: 164rpx;
+  flex-direction: row;
+  padding: 20rpx 0 14rpx;
+  justify-content: space-between;
+  border-bottom: 1px solid #f9f9f9;
+}
+
+.shop-img{
+  width: 160rpx;
+  height: 160rpx;
+  border-radius: 50%;
+}
+
+.shop-msg{
+  width: 490rpx;
+  height: 160rpx;
+}
+
+.title{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.shop-name{
+  color: #333;
+  font-size: 32rpx;
+  line-height: 32rpx;
+}
+
+.shop-img{
+  width: 20rpx;
+  height: 24rpx;
+}
+
+.distance{
+  color: #666;
+  font-size: 22rpx;
+  margin-top: 20rpx;
+  line-height: 22rpx;
+}
+
+.news{
+  display: flex;
+  width: 670rpx;
+  font-size: 26rpx;
+  margin-top: 20rpx;
+  line-height: 26rpx;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.black{
+  color: #333;
+}
+
+.red{
+  color: #FF4D4D;
+}

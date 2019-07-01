@@ -1,0 +1,104 @@
+/* components/add-address/index.wxss */
+
+.get-address {
+  width: 710rpx;
+  height: 100rpx;
+  display: flex;
+  background: #fff;
+  flex-direction: row;
+  border-radius: 10rpx;
+  margin: 23rpx auto 0;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 0 10rpx 0 rgba(0, 0, 0, 0.059);
+}
+
+.center {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.wechat {
+  width: 48rpx;
+  height: 42rpx;
+  margin-left: 32rpx;
+}
+
+.get-address {
+  color: #333;
+  font-size: 32rpx;
+  margin-left: 36rpx;
+  line-height: 32rpx;
+}
+
+.right {
+  width: 20rpx;
+  height: 23rpx;
+  margin-right: 23rpx;
+}
+
+.container {
+  display: flex;
+  width: 710rpx;
+  background: #fff;
+  align-items: center;
+  border-radius: 10rpx;
+  margin: 23rpx auto 0;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 0 10rpx 0 rgba(0, 0, 0, 0.059);
+}
+
+.line {
+  width: 670rpx;
+  height: 76rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 1px solid #f4f4f4;
+}
+
+.container .line:last-child {
+  border-bottom: 0;
+}
+
+.title {
+  color: #333;
+  width: 106rpx;
+  font-size: 26rpx;
+}
+
+.line .input, .line .picker {
+  width: 500rpx;
+  height: 76rpx;
+  color: #999;
+  font-size: 22rpx;
+  line-height: 76rpx;
+  margin-left: 20rpx;
+}
+
+.line label {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.line label image {
+  width: 20rpx;
+  height: 24rpx;
+}
+
+.btn {
+  width: 500rpx;
+  height: 78rpx;
+  color: #fff;
+  font-size: 38rpx;
+  text-align: center;
+  line-height: 78rpx;
+  margin: 60rpx auto 0;
+  border-radius: 10rpx;
+  background: #ffd05c;
+}

@@ -1,0 +1,91 @@
+<!--components/roulette/index.wxml-->
+
+<image class="title" src="./img/title.png"></image>
+
+<view class="notice" style="background-image:url({{notice}});">
+  <swiper class="swiper" circular="true" vertical="true" interval="4000" autoplay="true">
+    <block wx:for="{{news}}" wx:key="item">
+      <swiper-item class="swiper-item">
+        <view>{{item.content}}</view>
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
+
+<view class="record" style="top:{{statusHeight + 56}}px;" bindtap="switchRecord">
+  <text class="record-title">记录</text>
+  <image class="record-img" src="../../image/bot.png"></image>
+</view>
+
+<view class="container" style="background-image:url({{image}});">
+  <view class="number">您还有0次机会</view>
+  <view class="reward-list">
+    <view class="reward">
+      <view class="{{amplification_index - 1 == prizeList[0].show_sort?'on-sort':''}}">
+        <image class="reward-img" src="{{prizeList[0].prize_lucky_img}}"></image>
+        <text class="reward-title">{{prizeList[0].prize_name}}</text>
+      </view>
+    </view>
+    <view class="reward">
+      <view class="{{amplification_index - 1 == prizeList[1].show_sort?'on-sort':''}}">
+        <image class="reward-img" src="{{prizeList[1].prize_lucky_img}}"></image>
+        <text class="reward-title">{{prizeList[1].prize_name}}</text>
+      </view>
+    </view>
+    <view class="reward">
+      <view class="{{amplification_index - 1 == prizeList[2].show_sort?'on-sort':''}}">
+        <image class="reward-img" src="{{prizeList[2].prize_lucky_img}}"></image>
+        <text class="reward-title">{{prizeList[2].prize_name}}</text>
+      </view>
+    </view>
+    <view class="reward">
+      <view class="{{amplification_index - 1 == prizeList[7].show_sort?'on-sort':''}}">
+        <image class="reward-img" src="{{prizeList[7].prize_lucky_img}}"></image>
+        <text class="reward-title">{{prizeList[7].prize_name}}</text>
+      </view>
+    </view>
+
+    <image class="btn {{roll_flag == true?'':'opacity'}}" src="./img/btn.png" bindtap="switchRoulette"></image>
+
+    <view class="reward">
+      <view class="{{amplification_index - 1 == prizeList[3].show_sort?'on-sort':''}}">
+        <image class="reward-img" src="{{prizeList[3].prize_lucky_img}}"></image>
+        <text class="reward-title">{{prizeList[3].prize_name}}</text>
+      </view>
+    </view>
+    <view class="reward">
+      <view class="{{amplification_index - 1 == prizeList[6].show_sort?'on-sort':''}}">
+        <image class="reward-img" src="{{prizeList[6].prize_lucky_img}}"></image>
+        <text class="reward-title">{{prizeList[6].prize_name}}</text>
+      </view>
+    </view>
+    <view class="reward">
+      <view class="{{amplification_index - 1 == prizeList[5].show_sort?'on-sort':''}}">
+        <image class="reward-img" src="{{prizeList[5].prize_lucky_img}}"></image>
+        <text class="reward-title">{{prizeList[5].prize_name}}</text>
+      </view>
+    </view>
+    <view class="reward">
+      <view class="{{amplification_index - 1 == prizeList[4].show_sort?'on-sort':''}}">
+        <image class="reward-img" src="{{prizeList[4].prize_lucky_img}}"></image>
+        <text class="reward-title">{{prizeList[4].prize_name}}</text>
+      </view>
+    </view>
+  </view>
+</view>
+
+<view class="rule-title">活动规则</view>
+<view class="rule">
+  1.活动规则活动规则活动规则活动规则活动
+</view>
+<view class="rule">
+  2.活动规则活动规则活动规则活动规则活动规则活动规则活动规则活动规则活
+</view>
+<view class="rule">
+  3.活动规则活动规则活动规则活动规则活动规则活动规则活动规则活动规则活动规则活动规则活动规则活动规则
+</view>
+<view class="rule">
+  4.活动规则活动规则活动规则活动规则活动规则活动规则活动规则活动规则活动规则活动规则活动规则活动规则活动规则活动规则活动规则活动规则活动规则活动规则活动规则活动规则活动规则活动规则活动规则活动规则
+</view>
+
+<view class="space"></view>

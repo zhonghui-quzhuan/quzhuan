@@ -1,0 +1,7 @@
+<!--pages/news/news.wxml-->
+<v-nav title="悦头条" backStatus="{{backStatus}}" url="../index/index" bind:back="switchNews"></v-nav>
+
+<v-news_list class="news-list" nav="{{nav}}" bind:switchNews="switchNews" bind:switchNav="switchNav" wx:if="{{!newsWindow}}"></v-news_list>
+
+
+<v-news newsId="{{newsId}}" wx:else></v-news>

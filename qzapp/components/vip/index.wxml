@@ -1,0 +1,106 @@
+<!--components/vip/index.wxml-->
+<view class="container">
+  <view class="border">
+    <scroll-view class="slide" scroll-y="{{scrollY}}" >
+      <view class="box" style='background-image: url({{vipCard}})'>
+        <view class="partner">
+          一级合伙人
+        </view>
+        <view class="payment">
+          <view class="price">
+            ￥59980
+          </view>
+          <view class="pay">
+            <text class="pay-text">我趣赚</text>
+            <image class="pay-img" src="../../image/bot.png"></image>
+          </view>
+        </view>
+      </view>
+      <view class="box" style='background-image: url({{vipCard}})'>
+        <view class="partner">
+          一级合伙人
+        </view>
+        <view class="payment">
+          <view class="price">
+            ￥59980
+          </view>
+          <view class="pay">
+            <text class="pay-text">我趣赚</text>
+            <image class="pay-img" src="../../image/bot.png"></image>
+          </view>
+        </view>
+      </view>
+      <view class="box" style='background-image: url({{vipCard}})'>
+        <view class="partner">
+          一级合伙人
+        </view>
+        <view class="payment">
+          <view class="price">
+            ￥59980
+          </view>
+          <view class="pay">
+            <text class="pay-text">我趣赚</text>
+            <image class="pay-img" src="../../image/bot.png"></image>
+          </view>
+        </view>
+      </view>
+      <view class="box" style='background-image: url({{vipCard}})'>
+        <view class="partner">
+          一级合伙人
+        </view>
+        <view class="payment">
+          <view class="price">
+            ￥59980
+          </view>
+          <view class="pay">
+            <text class="pay-text">我趣赚</text>
+            <image class="pay-img" src="../../image/bot.png"></image>
+          </view>
+        </view>
+      </view>
+      <view class="box" style='background-image: url({{vipCard}})'>
+        <view class="partner">
+          一级合伙人
+        </view>
+        <view class="payment">
+          <view class="price">
+            ￥59980
+          </view>
+          <view class="pay">
+            <text class="pay-text">我趣赚</text>
+            <image class="pay-img" src="../../image/bot.png"></image>
+          </view>
+        </view>
+      </view>
+      <view class="box" style='background-image: url({{vipCard}})'>
+        <view class="partner">
+          一级合伙人
+        </view>
+        <view class="payment">
+          <view class="price">
+            ￥59980
+          </view>
+          <view class="pay">
+            <text class="pay-text">我趣赚</text>
+            <image class="pay-img" src="../../image/bot.png"></image>
+          </view>
+        </view>
+      </view>
+      <view class="box" style='background-image: url({{vipCard}})'>
+        <view class="partner">
+          一级合伙人
+        </view>
+        <view class="payment">
+          <view class="price">
+            ￥59980
+          </view>
+          <view class="pay">
+            <text class="pay-text">我趣赚</text>
+            <image class="pay-img" src="../../image/bot.png"></image>
+          </view>
+        </view>
+      </view>
+      <view class="box"></view>
+    </scroll-view>
+  </view>
+</view>

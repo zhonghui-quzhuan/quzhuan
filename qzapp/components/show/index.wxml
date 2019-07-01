@@ -1,0 +1,40 @@
+<!--components/show/index.wxml-->
+<view class="container">
+
+  <view class="title" id="0" bindtap="switchNav">
+    <view class="title-box">
+      <image class="title-img" src="./img/select.png"></image>
+      <text>自营精选</text>
+    </view>
+    <image class="right" src="./img/right.png"></image>
+  </view>
+
+  <navigator class="main" hover-class='none' url="../detail/detail">
+    <image class="main-img" src="../../image/product@main.png"></image>
+  </navigator>
+
+  <view class="list">
+    <navigator class="minor" hover-class='none' url="../detail/detail">
+      <image class="minor-img" src="../../image/product@minor.png"></image>
+      <text class="minor-text">今古楼金星小叶紫檀 手串108颗老料8m...</text>
+      <view class="price">
+        <view class="red">￥2000-</view><view class="red">￥3200</view>
+      </view>
+    </navigator>
+    <navigator class="minor" hover-class='none' url="../detail/detail">
+      <image class="minor-img" src="../../image/product@minor.png"></image>
+      <text class="minor-text">今古楼金星小叶紫檀 手串108颗老料8m...</text>
+      <view class="price">
+        <view class="red">￥2000-</view><view class="red">￥3200</view>
+      </view>
+    </navigator>
+    <navigator class="minor" hover-class='none' url="../detail/detail">
+      <image class="minor-img" src="../../image/product@minor.png"></image>
+      <text class="minor-text">今古楼金星小叶紫檀 手串108颗老料8m...</text>
+      <view class="price">
+        <view class="red">￥2000-</view><view class="red">￥3200</view>
+      </view>
+    </navigator>
+  </view>
+
+</view>

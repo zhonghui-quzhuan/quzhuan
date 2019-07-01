@@ -1,0 +1,143 @@
+/* components/news-list/index.wxss */
+
+.container {
+  width: 710rpx;
+  padding: 0 20rpx;
+  border-bottom: 1px solid #f4f4f4;
+}
+
+.main {
+  width: 620rpx;
+  color: #333;
+  font-size: 28rpx;
+  margin-top: 48rpx;
+  line-height: 38rpx;
+}
+
+.main-times {
+  width: 100%;
+  display: flex;
+  color: #eb0000;
+  font-size: 22rpx;
+  flex-direction: row;
+  align-items: center;
+  margin: 20rpx auto 36rpx;
+  justify-content: space-between;
+}
+
+.main-times .time {
+  color: #999;
+}
+
+.basics-msg {
+  display: flex;
+  font-size: 22rpx;
+  flex-direction: row;
+  align-items: center;
+}
+
+.basics-msg image {
+  margin-right: 16rpx;
+}
+
+.basics {
+  color: #999;
+  display: flex;
+  align-items: center;
+}
+
+.basics image {
+  width: 32rpx;
+  height: 22rpx;
+}
+
+.hot {
+  color: #eb0000;
+}
+
+.hot image {
+  width: 26rpx;
+  height: 30rpx;
+}
+
+/**
+ * 多图
+ */
+
+.multigraph {
+  display: flex;
+  width: 710rpx;
+  flex-direction: column;
+  padding: 42rpx 20rpx 0;
+  justify-content: space-between;
+  border-bottom: 1px solid #f4f4f4;
+}
+
+.secondary {
+  width: 620rpx;
+  color: #333;
+  font-size: 28rpx;
+  line-height: 38rpx;
+}
+
+.img-list {
+  width: 710rpx;
+  display: flex;
+  margin-top: 30rpx;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.img-list image {
+  width: 222rpx;
+  height: 150rpx;
+  border-radius: 10rpx;
+}
+
+.secondary-time {
+  width: 710rpx;
+  color: #999;
+  font-size: 22rpx;
+  text-align: right;
+  margin: 20rpx auto 28rpx;
+}
+
+.secondary-img {
+  color: #999;
+}
+
+.secondary-img image {
+  width: 32rpx;
+  height: 22rpx;
+}
+
+/**
+ * 单图
+ */
+
+.single {
+  display: flex;
+  width: 710rpx;
+  flex-direction: row;
+  padding: 40rpx 20rpx;
+  justify-content: space-between;
+  border-bottom: 1px solid #f4f4f4;
+}
+
+.main-img {
+  width: 220rpx;
+  height: 150rpx;
+  border-radius: 10rpx;
+}
+
+.msg {
+  width: 470rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.single .main-times {
+  margin: 0;
+}

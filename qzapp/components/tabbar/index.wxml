@@ -1,0 +1,13 @@
+<!--components/tabbar/index.wxml-->
+<view class="container">
+  <view class="total">
+    <view>合计:</view>
+    <text class="red">￥2200</text>
+  </view>
+  <view class="cart" bindtap="toCart">
+    <image class="cart-img" src="./img/addcart.png"></image>
+    <text>加入购物车</text>
+  </view>
+  <view class="btn" bindtap="toPay">立即购买</view>
+</view>
+<view class="space"></view>

@@ -1,0 +1,16 @@
+<!--components/tips/index.wxml-->
+<view class="container">
+  <view class="tips">
+    <view class="title">优惠券须知</view>
+    <scroll-view class="scroll" scroll-y="true">
+      <view class="tip">
+        <view>* [有效期］</view>
+        <text class="tip-text">2019-02-05</text> 截止</view>
+      <view class="tip">* 本优惠券只能在指定商家消费时使用，不兑现、不找零</view>
+      <view class="tip">* 每人每次只可使用一个消费券</view>
+      <view class="tip">* 商家备注：
+        <text class="tip-text">2019-02-05</text> 截止</view>
+    </scroll-view>
+    <view class="btn" bindtap='receiveCoupon'>朕知道了，立即领取！</view>
+  </view>
+</view>

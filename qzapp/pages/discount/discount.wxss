@@ -1,0 +1,4 @@
+/* pages/discount/discount.wxss */
+page{
+  background: #F9F9F9;
+}

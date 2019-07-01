@@ -1,0 +1,34 @@
+/* components/flash/index.wxss */
+
+.container{
+  display: flex;
+  width: 750rpx;
+  height: 1126rpx;
+  align-items: center;
+  background: #fffaee;
+}
+
+.container-img{
+  width: 612rpx;
+  height: 648rpx;
+  margin: 295rpx auto 0;
+}
+
+.logo{
+  width: 136rpx;
+  height: 136rpx;
+  margin: 36rpx 307rpx 0;
+}
+
+.skip{
+  right: 20rpx;
+  width: 140rpx;
+  height: 60rpx;
+  color: #fff;
+  position: fixed;
+  font-size: 22rpx;
+  text-align: center;
+  line-height: 60rpx;
+  border-radius: 30rpx;
+  background: rgba(0, 0, 0, .7);
+}

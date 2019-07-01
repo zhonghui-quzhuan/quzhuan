@@ -1,0 +1,9 @@
+/* components/maps/index.wxss */
+.map-box {
+  width: 750rpx;
+}
+
+.map {
+  width: 750rpx;
+  height: 100%;
+}

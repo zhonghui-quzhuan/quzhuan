@@ -1,0 +1,19 @@
+/* pages/periphery/periphery.wxss */
+page{
+  background: #f9f9f9;
+}
+
+.nav-list{
+  left: 0;
+  width: 750rpx;
+  height: 78rpx;
+  display: flex;
+  position: fixed;
+  background: #fff;
+  align-items: flex-end;
+}
+
+.space{
+  width: 750rpx;
+  height: 78rpx;
+}

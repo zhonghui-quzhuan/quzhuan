@@ -1,0 +1,12 @@
+{
+  "usingComponents": {
+    "v-nav": "/components/nav/index",
+    "v-banner": "/components/banner/index",
+    "v-collect": "/components/collect/index",
+    "v-tabbar": "/components/tabbar/index",
+    "v-number": "/components/number/index",
+    "v-pattern": "/components/pattern/index",
+    "v-ad": "/components/ad/index",
+    "v-atlas": "/components/atlas/index"
+  }
+}

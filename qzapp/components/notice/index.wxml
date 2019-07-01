@@ -1,0 +1,8 @@
+<!--components/notice/index.wxml-->
+<view class="container" id="8B572192C7D39685C906E497CB9786FA" bindtap="switchNotice">
+  <view class="title">
+    <text class="title-text">特大喜讯：为庆祝大会顺利举行，在会议期间筹委会将安排抽奖游戏</text>
+    <image class="title-img" src="../../image/right@2.png"></image>
+  </view>
+  <view class="times">2019-06-19 14:00:34</view>
+</view> 

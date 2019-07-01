@@ -1,0 +1,49 @@
+/* pages/vip/vip.wxss */
+
+page {
+  background: #32312d;
+}
+
+.touch {
+  width: 750rpx;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.touch-relative{
+  z-index: 9;
+  width: 750rpx;
+  height: 392rpx;
+  position: relative;
+}
+
+.vip {
+  top: 0;
+  left: 9rpx;
+  width: 732rpx;
+  height: 392rpx;
+  position: absolute;
+}
+
+.touch-on {
+  height: 0;
+  z-index: 8;
+  overflow: hidden;
+  animation-duration: 3s;
+  animation-name: animation_touch-on;
+}
+
+.card{
+  z-index: 1;
+  width: 700rpx;
+  height: 818rpx;
+  margin-top: -28rpx;
+}
+
+.margin_top{
+  margin: 0 auto!important;
+}
+

@@ -1,0 +1,6 @@
+<!--pages/mine/mine.wxml-->
+<v-nav title="我的" locationWindow="{{locationWindow}}"></v-nav>
+
+<v-user bind:switchQrcode="switchQrcode"></v-user>
+
+<v-qrcode userName="{{userName}}" headPic="{{headPic}}" phone="{{phone}}" qrcodeWindow="{{qrcodeWindow}}" qrCode="{{qrCode}}" bind:switchQrcode="switchQrcode"></v-qrcode>

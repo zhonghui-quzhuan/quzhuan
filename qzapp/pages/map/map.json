@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "v-nav": "/components/nav/index",
+    "v-maps": "/components/maps/index"
+  }
+}

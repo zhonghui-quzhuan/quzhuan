@@ -1,0 +1,19 @@
+/* pages/shop/shop.wxss */
+.v-search{
+  top: 0;
+  left: 0;
+  z-index: 9;
+  width: 750rpx;
+  position: relative;
+}
+
+.nav-box{
+  width: 584rpx;
+  height: 212rpx;
+}
+
+.nav-box navigator,.nav-box navigator image{
+  width: 240rpx;
+  height: 149rpx;
+  border-radius: 10rpx;
+}

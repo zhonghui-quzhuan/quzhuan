@@ -1,0 +1,84 @@
+/* components/address-list/index.wxss */
+
+.container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.box {
+  width: 670rpx;
+  padding: 20rpx;
+  min-height: 200rpx;
+  background: #fff;
+  border-radius: 10rpx;
+  margin: 20rpx 0 16rpx;
+  box-shadow: 4rpx 8rpx 28rpx 0 rgba(0, 0, 0, 0.06);
+}
+
+.user {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.user-text {
+  color: #333;
+  font-size: 32rpx;
+}
+
+.phone {
+  color: #999;
+  font-size: 26rpx;
+  margin-left: 20rpx;
+}
+
+.address {
+  color: #333;
+  font-size: 26rpx;
+  margin-top: 28rpx;
+  line-height: 36rpx;
+}
+
+.operation-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.operation {
+  display: flex;
+  color: #333;
+  font-size: 24rpx;
+  margin-top: 20rpx;
+  flex-direction: row;
+  align-items: center;
+}
+
+.operation-img {
+  width: 28rpx;
+  height: 28rpx;
+  margin-right: 12rpx;
+}
+
+.add {
+  left: 0;
+  bottom: 0;
+  z-index: 9;
+  width: 750rpx;
+  height: 88rpx;
+  color: #fff;
+  position: fixed;
+  font-size: 32rpx;
+  text-align: center;
+  line-height: 88rpx;
+  background: #ffd05c;
+}
+
+
+.space{
+  width: 750rpx;
+  height: 88rpx;
+  margin-top: 40rpx;
+}

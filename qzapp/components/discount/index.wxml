@@ -1,0 +1,6 @@
+<!--components/discount/index.wxml-->
+<view class="container" id="1" bindtap="openProduct">
+  <view class="product">
+    <image class="product-img" src="../../image/product@main.png"></image>
+  </view>
+</view>

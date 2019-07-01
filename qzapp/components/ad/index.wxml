@@ -1,0 +1,18 @@
+<!--components/ad/index.wxml-->
+<view class="container" wx:if="{{adWindow}}">
+  <view class="close" bindtap='closeAd'></view>
+  <view class="ad"> 
+    <view class="title">
+      <view class="box"></view>
+      看广告领优惠
+      <view class="box">剩余<text class="times">{{countDown}}s</text></view>
+    </view>
+    <scroll-view class="ad-img" scroll-y="true">
+      <image class="image" src="../../image/product@minor.png" mode="widthFix"></image>
+      <image class="image" src="../../image/product@minor.png" mode="widthFix"></image>
+      <image class="image" src="../../image/product@minor.png" mode="widthFix"></image>
+    </scroll-view>
+  </view>
+</view>
+
+<v-showmodel modalWindow="{{tipWindow}}" content="{{content}}" showCancel="{{showCancel}}" confirmText="金的" bind:confirm="confirm"></v-showmodel>

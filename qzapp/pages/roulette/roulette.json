@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "v-nav": "/components/nav/index",
+    "v-record": "/components/record/index",
+    "v-roulette": "/components/roulette/index"
+  }
+}

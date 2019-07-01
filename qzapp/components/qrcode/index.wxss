@@ -1,0 +1,80 @@
+/* components/qrcode/index.wxss */
+
+.container {
+  top: 0;
+  left: 0;
+  z-index: 110;
+  width: 750rpx;
+  height: 100vh;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+}
+
+.close {
+  top: 0;
+  left: 0;
+  z-index: 119;
+  width: 750rpx;
+  height: 100vh;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.box {
+  z-index: 120;
+  display: flex;
+  width: 520rpx;
+  height: 592rpx;
+  background: #fff;
+  align-items: center;
+  border-radius: 10rpx;
+  flex-direction: column;
+}
+
+.user {
+  display: flex;
+  width: 480rpx;
+  margin-top: 20rpx;
+  flex-direction: row;
+}
+
+.user-img {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+}
+
+.user-msg {
+  display: flex;
+  margin-left: 20rpx;
+  flex-direction: column;
+}
+
+.black {
+  color: #333;
+  font-size: 32rpx;
+  margin-top: 10rpx;
+  line-height: 32rpx;
+}
+
+.gray {
+  color: #666;
+  font-size: 22rpx;
+  margin-top: 30rpx;
+  line-height: 22rpx;
+}
+
+.qrcode {
+  width: 340rpx;
+  height: 340rpx;
+  margin-top: 50rpx;
+}
+
+.remarks {
+  color: #333;
+  font-size: 22rpx;
+  margin-top: 40rpx;
+  line-height: 22rpx;
+}

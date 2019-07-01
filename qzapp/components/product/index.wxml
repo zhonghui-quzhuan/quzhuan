@@ -1,0 +1,42 @@
+<!--components/product/index.wxml-->
+<view class="container">
+
+  <navigator class="product" hover-class='none' url="../detail/detail?id=">
+    <image class="product-img" src="../../image/product@minor.png"></image>
+    <text class="title">今古楼金星小叶紫檀手串108颗老料8mm男女款佛珠文玩檀...</text>
+    <view class="price">
+      <view>￥</view>2000-
+      <view>￥</view>3200
+    </view>
+    <image class="selected" src="../../image/select@dis.png" wx:if="{{status}}" bindtap='selectProduct'></image>
+  </navigator>
+
+   <navigator class="product" hover-class='none' url="../detail/detail?id=">
+    <image class="product-img" src="../../image/product@minor.png"></image>
+    <text>今古楼金星小叶紫檀手串108颗老料8mm男女款佛珠文玩檀...</text>
+    <view class="price">
+      <view class="red">￥2000-</view>
+      <view class="red">￥3200</view>
+    </view>
+    <image class="selected" src="../../image/select@dis.png" wx:if="{{status}}" bindtap='selectProduct'></image>
+  </navigator>
+
+   <navigator class="product" hover-class='none' url="../detail/detail?id=">
+    <image class="product-img" src="../../image/product@minor.png"></image>
+    <text>今古楼金星小叶紫檀手串108颗老料8mm男女款佛珠文玩檀...</text>
+    <view class="price">
+      <view class="red">￥2000-</view>
+      <view class="red">￥3200</view>
+    </view>
+    <image class="selected" src="../../image/select@dis.png" wx:if="{{status}}" bindtap='selectProduct'></image>
+  </navigator>
+
+  <view class="save" wx:if="{{status}}">
+    <view class="select">
+      <image class="select-img" src="../../image/select@dis.png"></image>
+      <text>全选</text>
+    </view>
+    <view class="btn">删除</view>
+  </view>
+  <!-- <view class="end">--- 没有更多了哦 ---</view> -->
+</view>

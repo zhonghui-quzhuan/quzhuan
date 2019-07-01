@@ -1,0 +1,7 @@
+{
+  "backgroundColor": "#f9f9f9",
+  "usingComponents": {
+    "v-nav": "/components/nav/index",
+    "v-cart-list": "/components/cart-list/index"
+  }
+}

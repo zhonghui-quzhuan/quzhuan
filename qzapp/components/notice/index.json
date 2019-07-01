@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "v-show_text": "/components/show-text/index"
+  }
+}

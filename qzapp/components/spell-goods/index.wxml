@@ -1,0 +1,17 @@
+<!--components/spell-goods/index.wxml-->
+<view class="container">
+  <image class="pro-img" src="../../image/product@minor.png"></image>
+  <view class="pro-msg">
+    <view class="title">
+      买2减2元 买3送1】日相月 抽纸 天然原生竹浆抽式纸巾*6包/提无添加本色餐巾...
+    </view>
+    <view class="spec">产品规格：120*185*100抽</view>
+    <view class="buy">
+      <view class="column">
+        <view class="number">已拼20件</view>
+        <view class="price">￥9.90</view>
+      </view>
+      <navigator class="shopping" hover-class="none" url="">立即拼</navigator>
+    </view>
+  </view>
+</view>

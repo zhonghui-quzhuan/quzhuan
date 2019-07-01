@@ -1,0 +1,93 @@
+/* components/vip/index.wxss */
+
+.container {
+  width: 700rpx;
+  position: relative;
+  background: #fff;
+  height: 100vh !important;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  border-radius: 24rpx 24rpx 0 0;
+}
+
+.border {
+  width: 680rpx;
+  height: 100vh;
+  align-items: center;
+  display: inline-flex;
+  margin: 10rpx 10rpx 0 10rpx;
+  border-radius: 20rpx 20rpx 0 0;
+  background: linear-gradient(to bottom, #a07f51, #f3edd7, #a07f51);
+}
+
+.slide {
+  width: 660rpx;
+  display: flex;
+  height: 100vh;
+  background: #fff;
+  align-items: center;
+  margin: 20rpx auto 0;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 16rpx 16rpx 0 0;
+}
+
+.box {
+  width: 642rpx;
+  height: 250rpx;
+  margin: 34rpx auto 20rpx;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.partner {
+  width: 642rpx;
+  color: #fff0dc;
+  font-size: 32rpx;
+  line-height: 32rpx;
+  flex-direction: row;
+  align-items: center;
+  display: inline-flex;
+  margin: 38rpx 0 0 37rpx;
+  justify-content: space-between;
+}
+
+.payment {
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 74rpx 0 0 28rpx;
+  justify-content: space-between;
+}
+
+.price {
+  font-size: 60rpx;
+}
+
+.price::first-letter {
+  font-size: 38rpx;
+}
+
+.pay {
+  width: 144rpx;
+  height: 54rpx;
+  display: flex;
+  margin-top: 10rpx;
+  align-items: center;
+  flex-direction: row;
+  background: #32312d;
+  justify-content: center;
+  border-radius: 54rpx 0 0 54rpx;
+}
+
+.pay-text {
+  margin-left: 16rpx;
+}
+
+.pay-img {
+  width: 20rpx;
+  height: 24rpx;
+  margin-left: 10rpx;
+  transform: rotate(-90deg);
+}

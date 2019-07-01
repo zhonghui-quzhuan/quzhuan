@@ -1,0 +1,16 @@
+<!--components/qrcode/index.wxml-->
+<view class="container" wx:if="{{qrcodeWindow}}">
+  <view class="close" bindtap='switchQrcode'></view>
+  <view class="box">
+    <view class="user">
+      <image class="user-img" src="{{headPic}}"></image>
+      <view class="user-msg">
+        <view class="black">{{userName}}</view>
+        <text class="gray">{{phone}}</text>
+      </view>
+    </view>
+    <image class="qrcode" src="{{qrCode}}"></image>
+    <view class="remarks">扫一扫二维码，注册加入我们</view>
+  </view>
+</view>
+ 

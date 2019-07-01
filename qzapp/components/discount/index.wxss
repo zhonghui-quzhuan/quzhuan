@@ -1,0 +1,20 @@
+/* components/discount/index.wxss */
+.container{
+  width: 750rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.product{
+  width: 660rpx;
+  height: 260rpx;
+  overflow: hidden;
+  margin: 20rpx auto;
+  border-radius: 10rpx;
+}
+
+.product-img{
+  width: 660rpx;
+  height: 260rpx;
+}

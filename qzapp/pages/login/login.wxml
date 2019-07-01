@@ -1,0 +1,3 @@
+<!--pages/login/login.wxml-->
+<!-- v-login组件 之前是放index页面的，后面改成单独页面 -->
+<v-login></v-login>

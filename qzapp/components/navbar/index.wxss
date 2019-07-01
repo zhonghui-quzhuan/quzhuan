@@ -1,0 +1,70 @@
+/* component/navbar/index.wxss */
+
+.container {
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 750rpx;
+  display: flex;
+  position: fixed;
+  background: #fff;
+  align-items: center;
+  flex-direction: column;
+}
+
+.navbar {
+  width: 750rpx;
+  height: 46px;
+  display: flex;
+  color: #fff;
+  font-weight: 500;
+  overflow: hidden;
+  font-size: 37rpx;
+  letter-spacing: 2px;
+  align-items: center;
+  background: #ffd05c;
+  justify-content: center;
+}
+
+.location {
+  left: 20rpx;
+  z-index: 16;
+  height: 46px;
+  color: #fff;
+  display: flex;
+  position: fixed;
+  font-size: 28rpx;
+  line-height: 46px;
+  flex-direction: row;
+  align-items: center;
+}
+
+.location-img {
+  width: 40rpx;
+  height: 40rpx;
+}
+
+.back{
+  top: 0;
+  left: 0;
+  z-index: 12;
+  width: 160rpx;
+  height: 46px;
+  position: fixed;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+}
+
+.back-img{
+  width: 40rpx;
+  height: 40rpx;
+  margin-left: 12rpx;
+  transform:rotate(90deg);
+}
+
+.space {
+  width: 750rpx;
+  height: 46px;
+  z-index: 0;
+}

@@ -1,0 +1,82 @@
+/* components/spell-goods/index.wxss */
+
+.container {
+  display: flex;
+  width: 710rpx;
+  height: 270rpx;
+  margin-top: 26rpx;
+  background: #fff;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 10rpx;
+  box-shadow: 0 0 15rpx 0 rgba(0, 0, 0, 0.1);
+}
+
+.pro-img {
+  width: 270rpx;
+  height: 270rpx;
+  border-radius: 10rpx;
+  box-shadow: 0 0 15rpx 0 rgba(0, 0, 0, 0.1);
+}
+
+.pro-msg {
+  width: 406rpx;
+  display: flex;
+  margin-left: 18rpx;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title {
+  color: #333;
+  font-size: 22rpx;
+  line-height: 36rpx;
+}
+
+.spec {
+  color: #999;
+  font-size: 22rpx;
+  margin-top: 20rpx;
+  line-height: 22rpx;
+}
+
+.buy {
+  display: flex;
+  margin-top: 52rpx;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.column {
+  display: flex;
+  color: #eb0000;
+  flex-direction: column;
+}
+
+.number {
+  color: #999;
+  font-size: 22rpx;
+  line-height: 22rpx;
+}
+
+.price {
+  margin-top: 12rpx;
+  font-size: 32rpx;
+  line-height: 32rpx;
+}
+
+.price::first-letter {
+  font-size: 22rpx;
+}
+
+.shopping {
+  width: 160rpx;
+  height: 60rpx;
+  color: #fff;
+  font-size: 38rpx;
+  line-height: 60rpx;
+  text-align: center;
+  border-radius: 10rpx;
+  background: #ffd05c;
+}

@@ -1,0 +1,41 @@
+<!--components/search/index.wxml-->
+<view class="container">
+  <form bindsubmit='searchKeywords' report-submit="true">
+    <view class="search">
+      <view class="search-box">
+        <image class="search-img" src="../../image/search.png"></image>
+        <input class="search-input" type='text' value="{{keywords}}" name="keywords" placeholder='{{placeholder}}' bindfocus='openSearch'></input>
+      </view>
+      <button class="btn" hover-class="btn-hover" form-type='submit'>搜索</button>
+    </view>
+  </form>
+  <block wx:if="{{searchType}}">
+    <view class="history-list" wx:if="{{history != ''}}">
+      <view class="text">
+        <text class="title">搜索历史</text>
+        <view class="operation" bindtap='deleteHistory'>
+          <text>删除</text>
+          <image class="text-img" src="../../image/delete.png"></image>
+        </view>
+      </view>
+      <view class="history">
+        <block wx:for="{{history}}" wx:key="item">
+          <view class="keyword" data-keyword="{{item}}" bindtap='selectKeyword'>{{item}}</view>
+        </block>
+      </view>
+    </view>
+    <view class="history-list">
+      <view class="text">
+        <text class="title">猜你想找</text>
+        <view class="operation">
+          <text>换一组</text>
+          <image src="./img/refresh.png"></image>
+        </view>
+      </view>
+      <view class="history">
+        <view data-keyword="" bindtap='selectKeyword'>白桦茸</view>
+        <view>牙膏</view>
+      </view>
+    </view>
+  </block>
+</view>

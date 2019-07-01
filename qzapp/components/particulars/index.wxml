@@ -1,0 +1,25 @@
+<!--components/particulars/index.wxml-->
+<view class="container">
+  <view class="company">
+    <image class="company-img" src="../../image/product@minor.png"></image>
+    <view class="msg">
+      <view class="title">青岛海信电器股份有限公司</view>
+      <view class="address">
+        海南省青岛市经济技术开发区 前湾港路210号
+      </view>
+    </view>
+  </view>
+</view>
+
+<view class="product">
+  <image class="product-img" src="../../image/product@main.png" mode="widthFix"></image>
+  <image class="product-img" src="../../image/product@minor.png" mode="widthFix"></image>
+</view>
+
+<view class="space"></view>
+<view class="operation">
+  <view class="operation-btn">立即领取</view>
+  <button class="operation-btn btn" open-type="share">分享好友</button>
+</view>
+
+<v-tips bind:receiveCoupon="receiveCoupon"></v-tips>

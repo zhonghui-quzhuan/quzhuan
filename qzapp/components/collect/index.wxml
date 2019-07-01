@@ -1,0 +1,2 @@
+<!--components/collect/index.wxml-->
+<image class="container" src="../../image/{{status?'collect':'collect@dis'}}.png"></image>

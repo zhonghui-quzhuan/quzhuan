@@ -1,0 +1,107 @@
+/* components/address/index.wxss */
+
+.container {
+  width: 750rpx;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.add {
+  width: 750rpx;
+  height: 94rpx;
+  color: #333;
+  display: flex;
+  font-size: 32rpx;
+  background: #fff;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.add-container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.add-img {
+  width: 36rpx;
+  height: 36rpx;
+  margin: 0 8rpx 0 20rpx;
+}
+
+.right {
+  width: 20rpx;
+  height: 24rpx;
+  margin-right: 44rpx;
+}
+
+.line {
+  width: 750rpx;
+  height: 8rpx;
+}
+
+/**
+ * 展示地址 
+ */
+
+.show {
+  display: flex;
+  width: 710rpx;
+  height: 160rpx;
+  margin-top: 26rpx;
+  background: #fff;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 10rpx;
+  box-shadow: 0 0 10rpx 0 rgba(0, 0, 0, 0.06);
+}
+
+.location {
+  width: 50rpx;
+  height: 66rpx;
+  margin: 46rpx 16rpx 0 20rpx;
+}
+
+.msg {
+  display: flex;
+  height: 160rpx;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.user {
+  color: #333;
+  display: flex;
+  font-size: 32rpx;
+  margin-top: 24rpx;
+  line-height: 32rpx;
+  flex-direction: row;
+}
+
+.user-text {
+  color: #999;
+  font-size: 26rpx;
+  margin-left: 20rpx;
+}
+
+.address{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20rpx;
+}
+
+.address-text{
+  width: 576rpx;
+  color: #333;
+  font-size: 26rpx;
+  line-height: 36rpx;
+}
+
+.address-img{
+  width: 16rpx;
+  height: 22rpx;
+  margin: 0 0 18rpx 10rpx;
+}

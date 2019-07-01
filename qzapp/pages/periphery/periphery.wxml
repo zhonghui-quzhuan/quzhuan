@@ -1,0 +1,13 @@
+<!--pages/periphery/periphery.wxml-->
+<v-nav title="周边商家" backStatus="{{backStatus}}" url="../index/index" bind:back="switchShop"></v-nav>
+
+<block wx:if="{{shopWindow}}">
+  <view class="nav-list" style="top:{{statusHeight}}px">
+    <v-switch nav="{{nav}}" bind:switchNav="switchNav"></v-switch>
+  </view>
+  <view class="space"></view>
+
+  <v-periphery bind:openShop="openShop"></v-periphery>
+</block>
+
+<v-shop wx:else></v-shop>

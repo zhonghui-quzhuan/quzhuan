@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "v-nav": "/components/nav/index",
+    "v-search": "/components/search/index",
+    "v-switch": "/components/switch/index",
+    "v-show": "/components/show/index",
+    "v-product": "/components/product/index"
+  }
+}

@@ -1,0 +1,61 @@
+<!--components/pay/index.wxml-->
+<view class="container">
+  <view class="product">
+    <image class="product-img" src="../../image/product@minor.png"></image>
+    <view class="msg">
+      <view class="title">楼金星小叶紫檀手串108颗老料8mm男女款佛珠文玩檀香木手链</view>
+      <view class="specs">产品规格：8mm*108颗</view>
+      <view class="price">
+        <view>￥2000-￥3200</view>
+        <view>x2</view>
+      </view>
+    </view>
+  </view>
+  <view class="product">
+    <image class="product-img" src="../../image/product@minor.png"></image>
+    <view class="msg">
+      <view class="title">楼金星小叶紫檀手串108颗老料8mm男女款佛珠文玩檀香木手链</view>
+      <view class="specs">产品规格：8mm*108颗</view>
+      <view class="price">
+        <view>￥2000-￥3200</view>
+      <view class="money">x2</view>
+    </view>
+  </view>
+</view>
+<view class="line">
+  <text class="title">优惠</text>
+  <label class="coupon">
+    <picker mode="selector" value="{{index}}" range="{{array}}" bindchange="selectCoupon">
+      <view class="picker">
+        {{array[index]}}
+      </view>
+    </picker>
+    <image class="coupon-img" src="../../image/right@2.png"></image>
+  </label>
+</view>
+<view class="line">
+  <text class="title">买家留言</text>
+  <input class="line-input" type='number' value="{{telNumber}}" maxlength='50' placeholder='留言建议提前协商（50字以内)'></input>
+</view>
+<view class="line">
+  <text class="title">商品金额</text>
+  <view class="total">￥2200</view>
+</view>
+<view class="line">
+  <text class="title"></text>
+  <view class="pay-price">
+    <text class="gray">共1件</text>，小计：
+    <text class="red">2180</text>
+  </view>
+</view>
+</view>
+
+<view class="pay">
+  <view class="pay-total">
+    <text class="gray">共1件</text>，小计：
+    <text class="red">2180</text>
+  </view>
+  <view class="btn">提交订单</view>
+</view>
+
+<view class="space"></view>

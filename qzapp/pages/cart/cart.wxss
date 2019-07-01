@@ -1,0 +1,4 @@
+/* pages/cart/cart.wxss */
+page{
+  background: #F9F9F9;
+}

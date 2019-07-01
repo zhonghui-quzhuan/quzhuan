@@ -1,0 +1,37 @@
+<!--components/order/index.wxml-->
+<view class="container">
+  <block wx:if="{{list}}">
+    <image class="null" src="./img/null.png"></image>
+    <text>您还没有相关订单哦~</text>
+  </block>
+  <block wx:else>
+    <view class="order">
+      <view class="product-msg">
+        <image class="product-img" src="../../image/product@minor.png"></image>
+        <view classs="msg">
+          <view class="title">
+            今古楼金星小叶紫檀手串108颗老料 8mm男女款佛珠文玩檀...
+          </view>
+          <view class="spec">
+            6mm金星紫檀108颗蜜蜡隔珠款
+          </view>
+          <view class="pay">
+            <text>应付金额：</text>
+            <view class="price">￥2158</view>
+          </view>
+        </view>
+      </view>
+      <view class="operation">
+        <view class="currency">
+          提醒发货
+        </view>
+        <view class="currency">
+          取消订单
+        </view>
+        <view class="find">
+          查看订单
+        </view>
+      </view>
+    </view>
+  </block>
+</view>

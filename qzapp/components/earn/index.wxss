@@ -1,0 +1,142 @@
+/* components/earn/index.wxss */
+
+.container {
+  width: 750rpx;
+  display: flex;
+  margin-top: 34rpx;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container-img {
+  width: 710rpx;
+}
+
+.container .container-img:first-child {
+  border-radius: 10rpx 10rpx 0 0;
+}
+
+.container .container-img:last-child {
+  border-radius: 0 0 10rpx 10rpx;
+}
+
+.radius {
+  border-radius: 10rpx !important;
+}
+
+.url {
+  width: 750rpx;
+  height: 62rpx;
+  color: #666;
+  display: flex;
+  font-size: 22rpx;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.yellow {
+  color: #ffd05c;
+}
+
+.times {
+  right: 0;
+  z-index: 6;
+  width: 88rpx;
+  height: 48rpx;
+  color: #fff;
+  position: fixed;
+  font-size: 26rpx;
+  background: #FE4545;
+  border-radius: 48rpx 0 0 48rpx;
+}
+
+.minute{
+  margin-left: 28rpx;
+  line-height: 48rpx;
+}
+
+.space {
+  width: 750rpx;
+  height: 120rpx;
+}
+
+.operation {
+  left: 0;
+  bottom: 0;
+  z-index: 7;
+  display: flex;
+  width: 710rpx;
+  height: 120rpx;
+  position: fixed;
+  font-size: 38rpx;
+  padding: 0 20rpx;
+  background: #fff;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.operation-nav{
+  width: 336rpx;
+  height: 78rpx;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  border-radius: 10rpx;
+  background: #ffd05c;
+  justify-content: center;
+  border: 1px solid #ffd05c;
+}
+
+.operation .operation-nav:last-child {
+  color: #333;
+  background: #fff;
+}
+
+.reward{
+  top: 0;
+  left: 0;
+  z-index: 9;
+  width: 750rpx;
+  height: 100vh;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, .7);
+}
+
+.box{
+  z-index: 10;
+  width: 556rpx;
+  height: 522rpx;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.reward-img{
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9;
+  width: 556rpx;
+  height: 522rpx;
+  position: absolute;
+}
+
+.content{
+  z-index: 10;
+  width: 440rpx;
+  height: 204rpx;
+  margin: 0 auto;
+  display: flex;
+  color: #FE970E;
+  font-size: 38rpx;
+  align-items: center;
+  padding-bottom: 80rpx;
+  justify-content: center;
+}

@@ -1,0 +1,6 @@
+<!--pages/order/order.wxml-->
+<v-nav title="{{title}}" url="../mine/mine"></v-nav>
+
+<v-switch class="v-switch" nav="{{nav}}" bind:switchNav="switchNav"></v-switch>
+
+<v-order></v-order>

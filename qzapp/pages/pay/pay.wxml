@@ -1,0 +1,6 @@
+<!--pages/pay/pay.wxml-->
+<v-nav title="{{title}}" locationWindow="{{locationWindow}}"></v-nav>
+
+<v-address></v-address>
+
+<v-pay></v-pay>

@@ -1,0 +1,36 @@
+/* components/number/index.wxss */
+
+.container {
+  width: 200rpx;
+  height: 52rpx;
+  display: flex;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid rgba(238, 238, 238, 1);
+}
+
+.number {
+  width: 96rpx;
+  height: 52rpx;
+  line-height: 52rpx;
+  text-align: center;
+  border-radius: 6rpx;
+  background: rgba(238, 238, 238, 1);
+}
+
+.input {
+  width: 72rpx;
+  height: 52rpx;
+  text-align: center;
+  border-radius: 6rpx;
+  padding: 0 12rpx;
+  background: rgba(238, 238, 238, 1);
+}
+
+.save-img {
+  width: 26rpx;
+  height: 26rpx;
+  padding: 8rpx 13rpx;
+}

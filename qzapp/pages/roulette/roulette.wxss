@@ -1,0 +1,4 @@
+/* pages/roulette/roulette.wxss */
+page{
+  background: #de4f4e;
+}

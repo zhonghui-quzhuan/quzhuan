@@ -1,0 +1,7 @@
+<!--components/number/index.wxml-->
+<view class="container">
+  <image class="save-img" src="./img/minus.png" id="0" bindtap='saveNumber'></image>
+  <!-- <view class="number">{{buyNumber}}</view> -->
+  <input class="input" type="number" maxlength='4' value="{{buyNumber}}" bindinput='inputNumber'></input>
+  <image class="save-img" src="./img/add.png" id="1" bindtap='saveNumber'></image>
+</view>

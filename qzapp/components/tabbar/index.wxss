@@ -1,0 +1,65 @@
+/* components/tabbar/index.wxss */
+
+.container {
+  left: 0;
+  bottom: 0;
+  width: 750rpx;
+  height: 98rpx;
+  display: flex;
+  position: fixed;
+  background: #fff;
+  flex-direction: row;
+  align-items: center;
+  border-top: 1px solid rgba(227, 227, 227, 1);
+}
+
+.total {
+  width: 164rpx;
+  display: flex;
+  color: #333;
+  font-size: 26rpx;
+  margin-left: 16rpx;
+  flex-direction: row;
+}
+
+.red {
+  font-size: 26rpx;
+  color: #eb0000;
+}
+
+.cart {
+  color: #333;
+  display: flex;
+  font-size: 22rpx;
+  margin-left: 40rpx;
+  align-items: center;
+  flex-direction: column;
+}
+
+.cart-img {
+  width: 50rpx;
+  height: 46rpx;
+  margin-bottom: 6rpx;
+}
+
+.btn {
+  color: #fff;
+  width: 336rpx;
+  height: 78rpx;
+  font-size: 38rpx;
+  font-weight: 400;
+  margin-left: 66rpx;
+  text-align: center;
+  line-height: 78rpx;
+  border-radius: 10rpx;
+  background: rgba(255, 208, 92, 1);
+}
+
+.btn:hover {
+  background: rgba(255, 208, 92, 1);
+}
+
+.space {
+  width: 750rpx;
+  height: 108rpx;
+}

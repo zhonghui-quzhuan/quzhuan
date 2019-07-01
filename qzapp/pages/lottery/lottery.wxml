@@ -1,0 +1,11 @@
+<!--pages/lottery/lottery.wxml-->
+<v-nav title="抽奖福利" backStatus="{{backStatus}}" url="../index/index" bind:back="switchLocation"></v-nav>
+
+<v-location locationWindow="{{locationWindow}}" statusHeight="{{statusHeight}}"></v-location>
+
+<view class="location" bindtap="switchLocation">
+  <text>深圳</text>
+  <image src="../../image/bottom.png"></image>
+</view>
+
+<v-lottery_list bind:switchLottery="switchLottery"></v-lottery_list>

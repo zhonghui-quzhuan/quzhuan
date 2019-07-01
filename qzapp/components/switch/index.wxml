@@ -1,0 +1,9 @@
+<!--components/switch/index.wxml-->
+<scroll-view scroll-x="true" class="container">
+  <block wx:for="{{nav}}" wx:key="item">
+    <view class="nav {{item.selected}}" id="{{index}}" bindtap='switchNav'>
+      <text>{{item.title}}</text>
+      <view class="line"></view>
+    </view>
+  </block>
+</scroll-view>

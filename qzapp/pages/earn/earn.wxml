@@ -1,0 +1,4 @@
+<!--pages/earn/earn.wxml-->
+<v-nav title="点点赚" url="../index/index" bind:back="closeSearch"></v-nav>
+
+<v-earn ></v-earn>

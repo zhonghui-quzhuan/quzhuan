@@ -1,0 +1,5 @@
+/* pages/earn/earn.wxss */
+
+page {
+  background: #f9f9f9;
+}

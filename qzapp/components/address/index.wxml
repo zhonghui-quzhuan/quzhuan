@@ -1,0 +1,28 @@
+<!--components/address/index.wxml-->
+<view class="container"> 
+  <block wx:if="{{address == ''}}">
+    <navigator class="add" hover-class='none' url="../add/add?status=0">
+      <view class="add-container">
+        <image class="add-img" src="./img/add.png"></image>
+        <text>添加地址</text>
+      </view>
+      <image class="right" src="../../image/right@2.png"></image>
+    </navigator>
+    <image class="line" src="./img/line.png"></image>
+  </block>
+  <block wx:else>
+    <navigator class="show" hover-class='none' url="../add/add?status=1">
+      <image class="location" src="./img/location.png"></image>
+      <view class="msg">
+        <view class="user">
+          <view>深圳市</view>
+          <text class="user-text">13498745632</text>
+        </view>
+        <view class="address">
+          <text class="address-text">广东省 深圳市 罗湖区 桂圆街道广东省深圳市罗湖区桂圆街道红桂大厦西座17楼</text>
+          <image class="address-img" src="../../image/right@2.png"></image>
+        </view>
+      </view>
+    </navigator>
+  </block>
+</view>

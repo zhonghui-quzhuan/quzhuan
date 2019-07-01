@@ -1,0 +1,66 @@
+/* components/ad/index.wxss */
+
+.container {
+  top: 0;
+  left: 0;
+  z-index: 9;
+  width: 750rpx;
+  height: 100vh;
+  position: fixed;
+}
+
+.close {
+  width: 750rpx;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.ad {
+  top: calc(100vh - 84vh);
+  left: 75rpx;
+  z-index: 20;
+  height: 68vh;
+  width: 600rpx;
+  overflow: hidden;
+  margin-top: 80rpx;
+  background: #fff;
+  position: absolute;
+  border-radius: 10rpx;
+}
+
+.title {
+  color: #333;
+  display: flex;
+  height: 92rpx;
+  font-size: 40rpx;
+  text-align: center;
+  line-height: 40rpx;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #f9f9f9;
+}
+
+.title .box {
+  width: 120rpx;
+  color: #999;
+  font-size: 22rpx;
+  margin-top: 12rpx;
+}
+
+.times {
+  color: #fe4545;
+}
+
+.ad-img {
+  width: 600rpx;
+  display: flex;
+  flex-direction: column;
+  height: calc(68vh - 92rpx);
+}
+
+.ad-img .image {
+  margin: 0;
+  display: flex;
+  width: 600rpx;
+}

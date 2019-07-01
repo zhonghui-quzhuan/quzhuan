@@ -1,0 +1,12 @@
+<!--components/show-text/index.wxml-->
+<view class="container">
+  <view class="title">{{notice_title}}</view>
+  <view class="times">
+    {{create_time}}
+  </view>
+</view>
+
+<view class="text">
+  <import src="../../utils/wxParse/wxParse.wxml" />
+  <template is="wxParse" data="{{wxParseData:content.nodes}}" />
+</view>

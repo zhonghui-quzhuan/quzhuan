@@ -1,0 +1,143 @@
+/* components/login/index.wxss */
+
+.container {
+  top: 0;
+  left: 0;
+  z-index: 999;
+  width: 750rpx;
+  height: 100vh;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  background: #fcd76c;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.logo {
+  width: 480rpx;
+  height: 230rpx;
+  margin-bottom: 28%;
+}
+
+.btn {
+  width: 660rpx;
+  height: 88rpx;
+  color: #fff;
+  display: flex;
+  margin: 24rpx 0;
+  font-size: 32rpx;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 44rpx;
+  justify-content: center;
+}
+
+.wechat {
+  background: #07c160;
+  box-shadow: 0 0 20rpx rgba(9, 193, 96, 0.76);
+}
+
+.phone {
+  background: #3dc5e7;
+  box-shadow: 0 0 20rpx rgba(61,197,231, 0.76);
+}
+
+.btn-img {
+  width: 36rpx;
+  height: 36rpx;
+  margin: 0 34rpx 0 -26rpx;
+}
+
+.tip {
+  width: 640rpx;
+  color: #fff;
+  font-size: 24rpx;
+  text-align: center;
+  margin: 60rpx 0 140rpx 0;
+}
+
+.justify_content_end {
+  justify-content: flex-end;
+}
+
+.justify_content_center {
+  justify-content: center;
+}
+
+/**
+ * 登录
+ */
+
+.login {
+  padding-top: 20vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.login-input {
+  display: flex;
+  width: 560rpx;
+  height: 100rpx;
+  margin: 24rpx 0;
+  flex-direction: row;
+  align-items: center;
+}
+
+.login-title {
+  width: 88rpx;
+  color: #353535;
+  font-size: 28rpx;
+  font-weight: 500;
+  line-height: 28rpx;
+  margin-right: 32rpx;
+}
+
+.import {
+  width: 400rpx;
+  height: 24rpx;
+  font-size: 24rpx;
+  background: #fff;
+  padding: 16rpx 20rpx;
+  border-radius: 24rpx;
+}
+
+.code {
+  width: 200rpx !important;
+  margin-right: 24rpx;
+}
+
+.getcode {
+  height: 68rpx;
+  color: #576b95;
+  line-height: 68rpx;
+  text-decoration: underline;
+}
+
+.setcode {
+  height: 88rpx;
+  color: #777;
+  font-size: 20rpx;
+  line-height: 88rpx;
+}
+
+.login-btn {
+  padding: 0;
+  width: 560rpx;
+  height: 80rpx;
+  color: #fff;
+  font-size: 32rpx;
+  line-height: 80rpx;
+  margin: 80rpx 0 0 0;
+  border-radius: 40rpx;
+  background: #3dc5e7;
+  box-shadow: 0 8rpx 40rpx #3dc5e7;
+}
+
+.back {
+  color: #888;
+  font-size: 24rpx;
+  margin-top: 38rpx;
+  padding: 12rpx 20rpx;
+}

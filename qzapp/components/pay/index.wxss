@@ -1,0 +1,161 @@
+/* components/pay/index.wxss */
+
+.container {
+  width: 710rpx;
+  display: flex;
+  background: #fff;
+  margin: 40rpx auto 0;
+  border-radius: 10rpx;
+  flex-direction: column;
+  box-shadow: 0 0 10rpx 0 rgba(0, 0, 0, 0.06);
+}
+
+.product {
+  display: flex;
+  flex-direction: row;
+}
+
+.product-img {
+  width: 270rpx;
+  height: 270rpx;
+  border-radius: 10rpx;
+  margin: 20rpx 24rpx 20rpx 20rpx;
+}
+
+.msg {
+  width: 376rpx;
+  display: flex;
+  margin-top: 40rpx;
+  flex-direction: column;
+}
+
+.msg .title {
+  color: #333;
+  font-size: 26rpx;
+  line-height: 38rpx;
+}
+
+.specs {
+  color: #999;
+  font-size: 22rpx;
+  margin-top: 30rpx;
+}
+
+.price {
+  display: flex;
+  color: #eb0000;
+  font-size: 24rpx;
+  margin-top: 64rpx;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.money:last-child {
+  color: #999;
+  font-size: 20rpx;
+}
+
+.line {
+  width: 670rpx;
+  height: 86rpx;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #f4f4f4;
+}
+
+.container .line:last-child {
+  border-bottom: 0;
+}
+
+.line .title {
+  width: 104rpx;
+  color: #333;
+  font-size: 26rpx;
+  margin-left: 20rpx;
+}
+
+.line-input, .total {
+  width: 500rpx;
+  height: 86rpx;
+  color: #333;
+  font-size: 22rpx;
+  line-height: 86rpx;
+}
+
+.total {
+  text-align: right;
+}
+
+.picker {
+  width: 480rpx;
+  height: 86rpx;
+  color: #999;
+  font-size: 22rpx;
+  line-height: 86rpx;
+}
+
+.coupon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.coupon-img {
+  width: 20rpx;
+  height: 24rpx;
+}
+
+.pay-price {
+  color: #000;
+  font-size: 26rpx;
+}
+
+.gray {
+  color: #666;
+}
+
+.red {
+  color: #eb0000;
+}
+
+.space {
+  width: 750rpx;
+  height: 100rpx;
+  margin-top: 60rpx;
+}
+
+.pay {
+  left: 0;
+  bottom: 0;
+  width: 750rpx;
+  height: 98rpx;
+  display: flex;
+  position: fixed;
+  background: #fff;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-end;
+  border-top: 1rpx solid #e3e3e3;
+}
+
+.pay-total {
+  color: #000;
+  font-size: 32rpx;
+}
+
+.btn {
+  width: 336rpx;
+  height: 78rpx;
+  color: #fff;
+  font-size: 38rpx;
+  text-align: center;
+  line-height: 78rpx;
+  border-radius: 10rpx;
+  background: #ffd05c;
+  margin: 0 20rpx 0 40rpx;
+}

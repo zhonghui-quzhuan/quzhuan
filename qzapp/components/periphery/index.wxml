@@ -1,0 +1,17 @@
+<!--components/periphery/index.wxml-->
+<view class="container" id="1" bindtap='openShop'>
+  <view class="main">
+    <image class="shop-img" src="../../image/product@minor.png"></image>
+    <view class="shop-msg">
+      <view class="title">
+        <text class="shop-name">幸福西饼（龙华店）</text>
+        <image class="shop-img" src="../../image/right@2.png"></image>
+      </view>
+      <view class="distance">10.5km</view>
+    </view>
+  </view>
+  <view class="news">
+    <view class="black">领卡享8折优惠</view>
+    <text class="red">火热进行中</text>
+  </view>
+</view>

@@ -1,0 +1,81 @@
+<!--components/user/index.wxml-->
+<view class="container">
+  <image class="pic" src="../../image/product@minor.png"></image>
+  <view class="user">
+    <view class='name'>
+      <text>用户账号</text>
+      <view class="grade">用户等级</view>
+    </view>
+    <image class="code" src="./img/code.png" bindtap='switchQrcode'></image>
+  </view>
+</view>
+
+<navigator class="vip" hover-class='none' url="../vip/vip">
+  <view class="vip-box">
+    <image class="vip-img" src="./img/vip.png"></image>
+    <text>VIP会员购买</text>
+  </view>
+  <image class="right" src="../../image/right@2.png"></image>
+</navigator>
+
+<view class="order wealth">
+  <navigator class="order-nav" hover-class='none' url="../coupon/coupon">
+    <view class="font">3</view>
+    <text>优惠券</text>
+  </navigator>
+  <navigator class="order-nav" hover-class='none' url="../card/card">
+    <view class="font">5</view>
+    <text>我的卡包</text>
+  </navigator>
+  <navigator class="order-nav" hover-class='none' url="../wallet/wallet">
+    <view class="font">2</view>
+    <text>可用钱包</text>
+  </navigator>
+</view>
+
+<view class="order">
+  <navigator class="order-nav" hover-class='none' url="../order/order">
+    <image class="order-img" src="./img/order.png"></image>
+    <text>普通订单</text>
+  </navigator>
+  <navigator class="order-nav" hover-class='none' url="../order/order">
+    <image class="order-img" src="./img/order@spell.png"></image>
+    <text>拼购订单</text>
+  </navigator>
+  <navigator class="order-nav" hover-class='none' url="../order/order">
+    <image class="order-img" src="./img/order@give.png"></image>
+    <text>等值送订单</text>
+  </navigator>
+</view>
+
+<view class="other">
+  <navigator class="other-nav" hover-class='none' url="../record/record">
+    <image class="other-img" src="./img/wallet.png"></image>
+    <text>待释放钱包</text>
+  </navigator>
+  <navigator class="other-nav" hover-class='none' url="../add/add">
+    <image class="other-img" src="./img/address.png"></image>
+    <text>我的地址</text>
+  </navigator>
+  <navigator class="other-nav" hover-class='none' url="../cart/cart">
+    <image class="other-img" src="./img/cart.png"></image>
+    <text>我的购物车</text>
+  </navigator>
+  <navigator class="other-nav" hover-class='none' url="../collect/collect">
+    <image class="other-img" src="./img/collect.png"></image>
+    <text>我的收藏</text>
+  </navigator>
+  <navigator class="other-nav" hover-class='none' url="../admin/admin">
+    <image class="other-img" src="./img/admin.png"></image>
+    <text>商家管理</text>
+  </navigator>
+  <navigator class="other-nav" hover-class='none' url="../set/set">
+    <image class="other-img" src="./img/set.png"></image>
+    <text>系统设置</text>
+  </navigator>  
+  <navigator class="other-nav" hover-class='none' url="../chat/chat">
+    <image class="other-img" src="./img/app.png"></image>
+    <text>商脉</text>
+  </navigator>
+  <view class="space"></view>
+</view>

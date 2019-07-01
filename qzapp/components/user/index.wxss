@@ -1,0 +1,160 @@
+/* components/user/index.wxss */
+
+.container {
+  color: #fff;
+  width: 750rpx;
+  height: 264rpx;
+  position: relative;
+  background: #ffd05c;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.container:after {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -100rpx;
+  z-index: -1;
+  content: ' ';
+  height: 200rpx;
+  width: 100%;
+  border-radius: 0 0 50% 50%;
+  background: #ffd05c;
+}
+
+.pic {
+  width: 124rpx;
+  height: 124rpx;
+  border-radius: 50%;
+  margin: 0 24rpx 0 34rpx;
+}
+
+.user {
+  width: 510rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.name {
+  color: #fff;
+  font-size: 32rpx;
+  line-height: 32rpx;
+}
+
+.grade {
+  font-size: 22rpx;
+  margin-top: 22rpx;
+  line-height: 22rpx;
+}
+
+.code {
+  width: 48rpx;
+  height: 48rpx;
+  padding: 0 0 20rpx 20rpx;
+}
+
+.vip {
+  z-index: 9;
+  width: 710rpx;
+  height: 100rpx;
+  display: flex;
+  margin: 8rpx auto 0;
+  background: #fff;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 10rpx;
+  justify-content: space-between;
+  box-shadow: 0 0 10rpx 0 rgba(0, 0, 0, 0.06);
+}
+
+.vip:hover {
+  background: #fff;
+}
+
+.vip-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.vip-img {
+  width: 50rpx;
+  height: 46rpx;
+  margin: 0 20rpx 0 18rpx;
+}
+
+.vip .right {
+  width: 20rpx;
+  height: 24rpx;
+  margin-right: 30rpx;
+}
+
+.order {
+  width: 710rpx;
+  height: 150rpx;
+  display: flex;
+  background: #fff;
+  margin: 40rpx auto 0;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 10rpx;
+  justify-content: space-around;
+  box-shadow: 0 0 10rpx 0 rgba(0, 0, 0, 0.06);
+}
+
+.order-nav {
+  color: #999;
+  display: flex;
+  font-size: 22rpx;
+  align-items: center;
+  flex-direction: column;
+}
+
+.order-img {
+  width: 54rpx;
+  height: 54rpx;
+  margin-bottom: 6rpx;
+}
+
+.font{
+  color: #333;
+  font-size: 38rpx;
+  margin-bottom: 28rpx;
+}
+
+.wealth{
+  height: 140rpx;
+}
+
+.other{
+  width: 710rpx;
+  display: flex;
+  flex-wrap: wrap;
+  background: #fff;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 10rpx;
+  margin: 40rpx auto 0;
+  padding: 8rpx 0 10rpx;
+  justify-content: space-between;
+  box-shadow: 0 0 10rpx 0 rgba(0, 0, 0, 0.06);
+}
+
+.other-nav,.space{
+  width: 174rpx;
+  color: #999;
+  display: flex;
+  font-size: 22rpx;
+  margin: 20rpx 0;
+  align-items: center;
+  flex-direction: column;
+}
+
+.other-img {
+  width: 54rpx;
+  height: 54rpx;
+  margin-bottom: 6rpx;
+}

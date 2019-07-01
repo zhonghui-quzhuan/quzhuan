@@ -1,0 +1,27 @@
+/* pages/lottery/lottery.wxss */
+
+page {
+  background: #f4f4f4;
+}
+
+.location {
+  width: 750rpx;
+  height: 68rpx;
+  display: flex;
+  background: #fff;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 10rpx rgba(0, 0, 0, 0.06);
+}
+
+.location image {
+  width: 30rpx;
+  height: 36rpx;
+  margin-left: 8rpx;
+}
+
+.location text {
+  color: #333;
+  font-size: 26rpx;
+}

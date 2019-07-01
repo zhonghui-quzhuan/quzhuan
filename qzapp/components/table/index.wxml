@@ -1,0 +1,34 @@
+<!--components/table/index.wxml-->
+<view class="container">
+  <navigator class="tab" hover-class='none' url="../spell/spell">
+    <image class="tab-img" src="./img/shop.png"></image>
+    <text>趣拼购</text>
+  </navigator>
+  <navigator class="tab" hover-class='none' url="../news/news">
+    <image class="tab-img" src="./img/new.png"></image>
+    <text>悦头条</text>
+  </navigator>
+  <navigator class="tab" hover-class='none' url="../discount/discount">
+    <image class="tab-img" src="./img/coupon.png"></image>
+    <text>抢优惠</text>
+  </navigator>
+  <navigator class="tab" hover-class='none' url="../lottery/lottery">
+    <image class="tab-img" src="./img/luckdraw.png"></image>
+    <text>抽　奖</text>
+  </navigator>
+</view>
+
+<navigator class="news" hover-class='none' url="../notice/notice">
+  <view class="news-text">
+    <image class="horn" src="./img/horn.png"></image>
+    <swiper class="swiper-box" circular="true" vertical="true" interval="2000" autoplay="true">
+      <block wx:for="{{news}}" wx:key="item">
+        <swiper-item class="swiper">
+          <view>{{item.notice_title}}</view>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+
+  <image class="right" src="../../image/right.png"></image>
+</navigator>

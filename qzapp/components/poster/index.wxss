@@ -1,0 +1,37 @@
+/* components/poster/index.wxss */
+
+.container {
+  width: 750rpx;
+  height: auto;
+}
+
+.title {
+  display: flex;
+  color: #000;
+  font-size: 32rpx;
+  align-items: center;
+  margin: 34rpx 0 40rpx;
+  justify-content: center;
+}
+
+.icon {
+  width: 40rpx;
+  height: 40rpx;
+}
+
+.text {
+  margin: 0 12rpx;
+}
+
+.product {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40rpx;
+  justify-content: center;
+}
+
+.product-img {
+  width: 660rpx;
+  height: 260rpx;
+  border-radius: 8rpx;
+}

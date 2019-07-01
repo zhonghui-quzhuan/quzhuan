@@ -1,0 +1,11 @@
+/* pages/order/order.wxss */
+page{
+  background: #F9F9F9;
+}
+
+.v-switch{
+  width: 500rpx;
+  overflow: hidden;
+  padding: 0 125rpx;
+  background: #fff;
+}

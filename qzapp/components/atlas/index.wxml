@@ -1,0 +1,11 @@
+<!--components/atlas/index.wxml-->
+<view class="container">
+  <view class="title">
+    <image class="icon" src="../../image/decorate.png"></image>
+    <text class="text">商品详情</text>
+    <image class="icon" src="../../image/decorate.png"></image>
+  </view>
+  <block wx:for="{{atlas}}" wx:key="item">
+    <image class="atlas" src="{{item}}" mode='widthFix'></image>
+  </block>
+</view>

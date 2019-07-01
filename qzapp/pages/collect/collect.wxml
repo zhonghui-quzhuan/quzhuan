@@ -1,0 +1,15 @@
+<!--pages/collect/collect.wxml-->
+<v-nav title="我的收藏"></v-nav>
+<view class="bar"></view>
+<view class="container" style="top:{{statusHeight + 46}}px">
+  <block wx:for="{{nav}}" wx:key="item">
+    <view class="title {{selected == index?'selected':''}}" id="{{index}}" bindtap='switchNav'>
+      <text>{{item}}</text>
+      <view></view>
+    </view>
+  </block>
+</view>
+
+<view class="save" style="top:{{statusHeight + 46}}px" bindtap='editProduct'>{{status?'完成':'编辑'}}</view>
+
+<v-product status="{{status}}"></v-product>

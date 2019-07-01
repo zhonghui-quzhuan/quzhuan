@@ -1,0 +1,35 @@
+<!--components/add-address/index.wxml--> 
+<view class="get-address" bindtap='getAddress'>
+  <view class="center">
+    <image class="wechat" src="./img/wechat.png"></image>
+    <text class="get-address">获取微信收货地址</text>
+  </view>
+  <image class="right" src="../../image/right@2.png"></image>
+</view>
+<view class="container">
+  <view class="line">
+    <text class="title">姓名</text>
+    <input class="input" type='text' value="{{userName}}" placeholder='收货人姓名' maxlength='20'></input>
+  </view>
+  <view class="line">
+    <text class="title">电话</text>
+    <input class="input" type='number' value="{{telNumber}}" placeholder='收货人手机号'></input>
+  </view>
+  <view class="line">
+    <text class="title">地区</text>
+    <label>
+      <picker mode="region" bindchange="bindRegionChange" value="{{region}}" custom-item="{{customItem}}">
+        <view class="picker">
+          {{region[0]}}{{region[1]}}{{region[2]}}
+        </view>
+      </picker>
+      <image src="../../image/right@2.png"></image>
+    </label>
+  </view>
+  <view class="line">
+    <text class="title">详细地址</text>
+    <input class="input" type='text' value="{{detailInfo}}" placeholder='街牌门号、楼层房间好等信息'></input>
+  </view>
+</view>
+
+<view class="btn" bindtap='saveAddress'>保存并使用</view>

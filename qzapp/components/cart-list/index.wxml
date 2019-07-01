@@ -1,0 +1,38 @@
+<!--components/cart-list/index.wxml-->
+
+<view class="null" wx:if="{{status}}">
+  <image class="null-img" src="./img/cart.png"></image>
+  <text>购物车是空的~</text>
+  <navigator class="null-nav" hover-class='none' url="../shop/shop" open-type="switchTab">去逛逛</navigator>
+</view>
+<!--  wx:for="" wx:key="" -->
+<block wx:else>
+  <view class="container {{item.isTouchMove ? 'touch-move-active' : ''}}" data-index="{{index}}" bindtouchstart="touchstart" bindtouchmove="touchmove" wx:for="{{items}}" wx:key="item">
+    <view class='content' bindtap='showDetail' data-index="{{index}}">
+      <image class="select" src="../../image/select@dis.png"></image>
+      <image class="product-img" src="../../image/product@minor.png"></image>
+      <view class="product-msg">
+        <text class="product-text">今古楼金星小叶紫檀手串108颗老料8mm男女款佛珠文玩檀...</text>
+        <view class="spec">6mm金星紫檀108颗蜜蜡隔珠款</view>
+        <view class="buy-number">
+          <view class="price">￥2200</view>
+          <v-number class="number" buyNumber="{{buyNumber}}" bind:saveNumber="saveNumber"></v-number>
+        </view>
+      </view>
+    </view>
+    <view class="del" catchtap="del" data-index="{{index}}">删除</view>
+  </view>
+  <view class="buy">
+    <view class="seleted">
+      <image class="select" src="../../image/select@dis.png"></image>
+      <text>全选</text>
+    </view>
+    <view class="total">
+      <view class="total-price">小计：
+        <view class="red">2108</view>
+      </view>
+      <view class="btn">结算</view>
+    </view>
+  </view>
+  <view class="space"></view>
+</block>

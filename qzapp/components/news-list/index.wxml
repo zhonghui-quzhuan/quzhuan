@@ -1,0 +1,50 @@
+<!--components/news-list/index.wxml-->
+
+<v-switch nav="{{nav}}" bind:switchNav="switchNav"></v-switch>
+
+<view class="container" id="8B572192C7D39685C906E497CB9786FA" bindtap="switchNews">
+  <view class="main">十八大以来首次访问朝鲜在即习近平这样评价中朝关系</view>
+  <view class="main-times">
+    <view class="basics-msg">
+      <view class="basics hot">
+        <image src="./img/hot.png"></image>
+        <text>置顶</text>
+      </view>
+    </view>
+    <text class="time">07-26</text>
+  </view>
+</view>
+
+<view class="multigraph" id="8B572192C7D39685C906E497CB9786FA" bindtap="switchNews">
+  <view class="secondary">人生若觉无作为，原君读读黄公望</view>
+  <view class="img-list">
+    <image src="../../image/product@main.png" mode="aspectFill"></image>
+    <image src="../../image/product@main.png" mode="aspectFill"></image>
+    <image src="../../image/product@main.png" mode="aspectFill"></image>
+  </view>
+  <view class="main-times">
+    <view class="basics-msg">
+      <view class="basics">
+        <image src="./img/see.png"></image>
+        <text>200</text>
+      </view>
+    </view>
+    <text class="time">07-26</text>
+  </view>
+</view>
+
+<view class="single" id="8B572192C7D39685C906E497CB9786FA" bindtap="switchNews">
+  <image class="main-img" src="../../image/product@main.png"></image>
+  <view class="msg">
+    <text>宜宾地震被埋女子获救：废墟下很多双手在刨石头拉我，手电筒像星星</text>
+    <view class="main-times">
+      <view class="basics-msg">
+        <view class="basics">
+          <image class="" src="./img/see.png"></image>
+          <text>200</text>
+        </view>
+      </view>
+      <text class="time">07-26</text>
+    </view>
+  </view>
+</view>

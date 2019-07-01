@@ -1,0 +1,20 @@
+<!--pages/shop/shop.wxml-->
+<v-nav title="{{title}}" locationWindow="{{searchWindow || productWindow}}" backStatus="{{backStatus}}" bind:back="closeSearch"></v-nav>
+
+<v-search class="v-search" searchWindow="{{searchWindow}}" placeholder="{{placeholder}}" bind:openSearch="openSearch"></v-search>
+
+<block wx:if="{{!searchWindow}}"> 
+  <v-switch nav="{{nav}}" bind:switchNav="switchNav"></v-switch>
+  <block wx:if="{{!productWindow}}">
+    <view class="nav-box flex justify_content_sb align_items">
+      <navigator hover-class='none' url="">
+        <image src="../../image/give.png"></image>
+      </navigator>
+      <navigator hover-class='none' url="../map/map">
+        <image src="../../image/periphery.png"></image>
+      </navigator>
+    </view>
+    <v-show></v-show>
+  </block>
+  <v-product wx:else></v-product>
+</block>

@@ -1,0 +1,102 @@
+/* components/particulars/index.wxss */
+
+
+.container {
+  width: 710rpx;
+  padding: 20rpx 20rpx 16rpx;
+}
+
+.company {
+  width: 710rpx;
+  height: 160rpx;
+  display: flex;
+  background: #fff;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 10rpx;
+  box-shadow: 0 0 10rpx 0 rgba(0, 0, 0, 0.06);
+}
+
+.company-img {
+  width: 124rpx;
+  height: 124rpx;
+  border-radius: 50%;
+  margin-left: 24rpx;
+}
+
+.msg {
+  width: 384rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.title {
+  color: #333;
+  font-size: 32rpx;
+}
+
+.address {
+  color: #999;
+  font-size: 26rpx;
+  margin-top: 20rpx;
+}
+
+.product {
+  width: 750rpx;
+  display: flex;
+  align-items: center;
+  border-radius: 10rpx;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 0 0 10rpx 0 rgba(0, 0, 0, 0.06);
+}
+
+.product-img {
+  width: 710rpx;
+}
+
+.product .product-img:first-child {
+  border-radius: 10rpx 10rpx 0 0;
+}
+
+.product .product-img:last-child {
+  border-radius: 0 0 10rpx 10rpx;
+}
+
+.space{
+  width: 400rpx;
+  height: 108rpx;
+}
+
+.operation {
+  bottom: 0;
+  left: 20rpx;
+  width: 710rpx;
+  display: flex;
+  height: 92rpx;
+  position: fixed;
+  background: #fff;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.operation-btn {
+  width: 336rpx;
+  height: 78rpx;
+  color: #fff;
+  display: flex;
+  font-size: 38rpx;
+  align-items: center;
+  border-radius: 10rpx;
+  background: #ffd05c;
+  justify-content: center;
+  border: 1px solid #ffd05c;
+}
+
+.btn {
+  color: #666;
+  background: #fff;
+  border: 1px solid #ffd05c;
+}

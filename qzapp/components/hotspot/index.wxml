@@ -1,0 +1,8 @@
+<!--components/hotspot/index.wxml-->
+<navigator class="container" hover-class='none' url="../headlines/headlines">
+  <view class="font">
+    <view class="title">{{title}}</view>
+    <text class="intro">{{intro}}</text>
+  </view>
+  <image class="image" src="{{image}}" mode="aspectFill"></image>
+</navigator>

@@ -1,0 +1,10 @@
+<!--pages/add/add.wxml-->
+<v-nav title="{{title}}" locationWindow="{{locationWindow}}"></v-nav>
+
+<block wx:if="{{status == 0}}">
+  <v-add_address ></v-add_address>
+</block>
+
+<block wx:else>
+  <v-address_list></v-address_list>
+</block>

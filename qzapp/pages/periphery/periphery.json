@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "v-nav": "/components/nav/index",
+    "v-switch": "/components/switch/index",
+    "v-shop": "/components/shop/index",
+    "v-periphery": "/components/periphery/index"
+  }
+}

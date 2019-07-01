@@ -1,0 +1,10 @@
+<!--pages/discount/discount.wxml-->
+<v-nav title="抢优惠" backStatus="{{!searchWindow && productId == 0}}" url="../index/index" bind:back="closeSearch"></v-nav>
+
+<v-search searchWindow="{{searchWindow}}" placeholder="搜索优惠商家" bind:openSearch="openSearch" wx:if="{{productId == 0}}"></v-search>
+
+<block wx:if="{{!searchWindow}}">
+  <v-discount bind:openProduct="openProduct" wx:if="{{productId == 0}}"></v-discount>
+
+  <v-particulars id="{{productId}}" wx:else></v-particulars>
+</block>

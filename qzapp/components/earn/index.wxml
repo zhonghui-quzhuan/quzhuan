@@ -1,0 +1,33 @@
+<!--components/earn/index.wxml-->
+<view class="container">
+  <!--  class="radius" 一张图片则增加class -->
+  <image class="container-img" src="../../image/product@main.png" mode="widthFix"></image>
+  <image class="container-img" src="../../image/product@main.png" mode="widthFix"></image>
+  <image class="container-img" src="../../image/product@main.png" mode="widthFix"></image>
+  <image class="container-img" src="../../image/product@main.png" mode="widthFix"></image>
+</view>
+ 
+<view class="url">
+  <view>更多品牌商品</view>
+  <text class="yellow">https://lanhuapp.com/web/#/item/project/board/</text>
+</view>
+
+
+<view class="reward" bindtap='closeRewardWindow' wx:if="{{rewardWindow}}">
+  <view class="box">
+    <image class="reward-img" src="./img/reward.png"></image>
+    <view class="content">
+      任务已完成 无收益释放
+    </view>
+  </view>
+</view>
+
+<view class="times" style="top:{{statusHeight + 66}}px" wx:else>
+  <text class="minute">{{times}}秒</text>
+</view>
+
+<view class="space"></view>
+<view class="operation">
+  <navigator class="operation-nav" hover-class='none' url="../vip/vip">VIP升级</navigator>
+  <navigator class='operation-nav' hover-class='none' url="../detail/detail">立即购买</navigator>
+</view>

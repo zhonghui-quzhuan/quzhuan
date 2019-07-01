@@ -1,0 +1,39 @@
+<!--components/showmodel/index.wxml-->
+<view class="container" wx:if="{{modalWindow}}">
+  <view class="tip">
+
+    <view class="title">{{title}}</view>
+    <view class="content">
+      {{content}}
+    </view>
+
+    <block wx:if="{{showCancel}}">
+      <view class="box">
+        <button class="box-btn" style="color:{{cancelColor}};background:{{cancelBackground}}" open-type='getUserInfo' bindgetuserinfo="cancel" wx:if="{{cancelType}}">
+          {{cancelText}}
+        </button>
+        <button class="box-btn" style="color:{{cancelColor}};background:{{cancelBackground}}" open-type='getPhoneNumber' bindgetphonenumber="cancel" wx:else>> {{cancelText}}
+        </button>
+        <label class="line"></label>
+        <button class="box-btn" style="color:{{confirmColor}};background:{{confirmBackground}}" open-type='getUserInfo' bindgetuserinfo="confirm" wx:if="{{confirmType}}">
+          {{confirmText}}
+        </button>
+        <button class="box-btn" style="color:{{confirmColor}};background:{{confirmBackground}}" open-type='getPhoneNumber' bindgetphonenumber="confirm" wx:else>
+          {{confirmText}}
+        </button>
+      </view>
+    </block>
+
+    <block wx:else>
+      <view class="fox">
+        <button class="fox" style="color:{{confirmColor}};background:{{confirmBackground}}" open-type='getUserInfo' bindgetuserinfo="confirm" wx:if="{{confirmType}}">
+          {{confirmText}}
+        </button>
+        <button class="fox" style="color:{{confirmColor}};background:{{confirmBackground}}" open-type='getPhoneNumber' bindgetphonenumber="confirm" wx:else>
+          {{confirmText}}
+        </button>
+      </view>
+    </block>
+
+  </view>
+</view>

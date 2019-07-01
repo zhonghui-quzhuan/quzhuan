@@ -1,0 +1,13 @@
+<!--pages/spell/spell.wxml-->
+<v-nav title="趣拼购" bind:back="closeSearch"></v-nav>
+
+<v-search searchWindow="{{searchWindow}}" placeholder="{{placeholder}}" bind:openSearch="openSearch"></v-search>
+
+<block wx:if="{{!searchWindow}}">
+  <v-switch nav="{{nav}}" bind:switchNav="switchNav"></v-switch>
+  <block wx:if="{{!productWindow || nav[0].selected}}">
+    <image class="banner" src="../../image/spell.png"></image>
+    <v-spell_goods></v-spell_goods>
+  </block>
+  <v-product wx:else></v-product>
+</block>

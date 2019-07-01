@@ -1,0 +1,32 @@
+/* components/show-text/index.wxss */
+@import "../../utils/wxParse/wxParse.wxss";
+
+.container{
+  display: flex;
+  width: 750rpx;
+  align-items: center;
+  padding-bottom: 20rpx;
+  flex-direction: column;
+  border-bottom: 1px solid #f4f4f4;
+}
+
+.title {
+  color: #333;
+  width: 710rpx;
+  font-size: 38rpx;
+  margin-top: 30rpx;
+}
+
+.times {
+  width: 710rpx;
+  color: #999;
+  font-size: 22rpx;
+  text-align: right;
+  margin-top: 30rpx;
+  line-height: 22rpx;
+}
+
+.text{
+  width: 680rpx;
+  margin: 0 auto;
+}

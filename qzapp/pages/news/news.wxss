@@ -1,0 +1,5 @@
+/* pages/news/news.wxss */
+
+.news-list{
+  margin-top: 20rpx;
+}

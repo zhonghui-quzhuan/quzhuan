@@ -1,0 +1,8 @@
+/* pages/spell/spell.wxss */
+
+.banner {
+  width: 710rpx;
+  height: 260rpx;
+  border-radius: 10rpx;
+  margin: 40rpx auto 0;
+}

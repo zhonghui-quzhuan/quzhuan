@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "v-nav": "/components/nav/index",
+    "v-news_list": "/components/news-list/index",
+    "v-news": "/components/news/index"
+  }
+}

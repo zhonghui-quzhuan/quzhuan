@@ -1,0 +1,103 @@
+/* pages/detail/detail.wxss */
+
+.v-banner {
+  width: 750rpx;
+  height: 758rpx;
+}
+
+.msg {
+  width: 710rpx;
+  height: 78rpx;
+  margin-top: 20rpx;
+}
+
+.title {
+  width: 518rpx;
+  height: 76rpx;
+  color: #333;
+  font-size: 32rpx;
+  line-height: 38rpx;
+}
+
+.operation {
+  width: 188rpx;
+}
+
+.operation .btn:first-child {
+  padding-left: 22rpx;
+}
+
+.operation .btn:last-child {
+  padding-left: 22rpx;
+}
+
+.btn {
+  width: 68rpx;
+  height: 78rpx;
+  color: #999;
+  font-size: 22rpx;
+  line-height: 22rpx;
+}
+
+.btn-img {
+  width: 46rpx;
+  height: 46rpx;
+}
+
+.specs {
+  width: 710rpx;
+  color: #999;
+  font-size: 22rpx;
+  margin-top: 18rpx;
+  line-height: 22rpx;
+}
+
+.buy {
+  width: 710rpx;
+  display: flex;
+  margin-top: 60rpx;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.price {
+  display: flex;
+  color: #eb0000;
+  font-size: 38rpx;
+  flex-direction: row;
+}
+
+.price view::first-letter {
+  font-size: 22rpx;
+}
+
+.price ::-webkit-textfield-decoration-container {
+  font-size: 32rpx;
+}
+
+.ad {
+  width: 750rpx;
+  height: 61rpx;
+  margin-top: 53rpx;
+  background: rgba(244, 244, 244, 1);
+}
+
+.ad-title {
+  width: 224rpx;
+  font-size: 32rpx;
+  margin-left: 18rpx;
+  color: rgba(245, 174, 0, 1);
+}
+
+.go {
+  color: #999;
+  font-size: 22rpx;
+  margin-right: 24rpx;
+}
+
+.go image {
+  width: 20rpx;
+  height: 16rpx;
+  margin-left: 12rpx;
+}

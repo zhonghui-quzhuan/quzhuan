@@ -1,0 +1,5 @@
+<!--components/maps/index.wxml-->
+<view class="map-box" style="paddint-top: {{statusHeight}}px;height:calc(100vh - {{statusHeight + 59}}px)">
+  <map class="map" id="map" longitude="{{lng}}" latitude="{{lat}}" scale="14" controls="{{controls}}" bindcontroltap="controltap" markers="{{markers}}" bindmarkertap="markertap" bindregionchange="regionchange" show-location></map>
+</view>
+

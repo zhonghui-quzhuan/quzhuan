@@ -1,0 +1,10 @@
+<!--components/flash/index.wxml-->
+<view class="container">
+  <image class="container-img" src="./img/flash.png"></image>
+</view>
+
+<image class="logo" src="./img/logo.png"></image>
+
+<view class="skip" style="top:{{statusHeight + 56}}px" bindtap="skip">
+  {{num}}s 跳过
+</view>

@@ -1,0 +1,47 @@
+<!--pages/detail/detail.wxml-->
+<v-nav title="{{title}}" locationWindow="{{locationWindow}}" bind:back="removeDetail"></v-nav>
+
+<v-banner class="v-banner" banner="{{banner}}"></v-banner>
+
+<view class="msg flex row justify_content_sb">
+  <text class="title">楼金星小叶紫檀手串108颗老料8mm男女款佛珠文玩檀香木手链</text>
+  <view class="operation flex justify_content_sb">
+    <button class="btn flex column align_items justify_content_sb" hover-class='btn-hover' bind:tap="collect">
+      <v-collect class="btn-img" status="{{status}}"></v-collect>
+      <text>收藏</text>
+    </button>
+    <button class="btn flex column align_items justify_content_sb" hover-class='btn-hover' open-type='share'>
+      <image class="btn-img" src="../../image/share.png"></image>
+      <text>分享</text>
+    </button>
+  </view>
+</view>
+<view class="specs">产品规格：8mm*108颗</view>
+
+<v-pattern buyNumber="{{buyNumber}}" bind:closePattern="closePattern" bind:saveNumber="saveNumber" bind:confirm="confirm" wx:if="{{patternWindow}}"></v-pattern>
+
+<block wx:else>
+  <view class="buy flex row align_items justify_content_sb">
+    <view class="price">
+      <view>￥2200</view>
+      <text>-</text>
+      <view>￥3200</view>
+    </view>
+    <v-number buyNumber="{{buyNumber}}" bind:saveNumber="saveNumber"></v-number>
+  </view>
+
+  <view class="ad flex row align_items justify_content_sb" catch:tap='switchAd'>
+    <view class="ad-title">看广告领优惠券</view>
+    <view class="go flex row align_items">
+      <text>立即领券</text>
+      <image src="../../image/right.png"></image>
+    </view>
+  </view>
+
+
+  <v-atlas atlas="{{banner}}"></v-atlas>
+  <!-- v-tabbar写在最下 -->
+  <v-tabbar bind:buyProudct="buyProudct"></v-tabbar>
+</block>
+
+<v-ad adWindow="{{adWindow}}" bind:switchAd="switchAd"></v-ad>
